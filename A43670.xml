@@ -1,0 +1,642 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon preached before the Lord Mayor, Aldermen, and citizens of London, at Bow-church on the 30th, of January, 1681/2 by George Hickes.</title>
+            <author>Hickes, George, 1642-1715.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1682</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 91 KB of XML-encoded text transcribed from 22 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A43670</idno>
+            <idno type="STC">Wing H1864</idno>
+            <idno type="STC">ESTC R12553</idno>
+            <idno type="EEBO-CITATION">13016904</idno>
+            <idno type="OCLC">ocm 13016904</idno>
+            <idno type="VID">96572</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A43670)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 96572)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 741:45)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon preached before the Lord Mayor, Aldermen, and citizens of London, at Bow-church on the 30th, of January, 1681/2 by George Hickes.</title>
+                  <author>Hickes, George, 1642-1715.</author>
+               </titleStmt>
+               <extent>[8], 33, [2] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Walter Kettilby ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1682.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Includes bibliographical references.</note>
+                  <note>Advertisement: p. [1]-[2] at end.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  N.T. --  Acts XVII, 7 --  Sermons.</term>
+               <term>Dissenters, Religious --  England --  Controversial literature.</term>
+               <term>Sermons, English --  17th century.</term>
+               <term>Church and state --  England.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2008-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2008-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-11</date>
+            <label>Jayanthi Reddy</label>Sampled and proofread</change>
+         <change>
+            <date>2011-11</date>
+            <label>Jayanthi Reddy</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:96572:1"/>
+            <pb facs="tcp:96572:1"/>
+            <p>A SERMON Preached before the Lord Mayor, ALDERMEN, AND CITIZENS of <hi>LONDON,</hi> AT BOW CH<g ref="char:V">Ʋ</g>RCH, on the 30th. of <hi>January,</hi> 168<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>.</p>
+            <p>By <hi>GEORGE HICKES,</hi> D. D.</p>
+            <q>
+               <bibl>Chr. Goodman <hi>of Obedience, p.</hi> 52, 53.</bibl>
+               <p>Although the Popes for ſundry Enormities have depoſed Kings by unlawfull Autority, the reaſon that moved them ſo to do, was <hi>honeſt, and juſt, and meet to be received and executed</hi> by the Body of every Common-wealth.</p>
+               <bibl>
+                  <hi>L. Keeper</hi> Puckering <hi>in a Speech to both Houſes,</hi>
+               </bibl>
+               <p>—And as the Caſe ſtands, it may be doubted whether <hi>They,</hi> or the <hi>Jeſuits</hi> do offer more danger, or be more ſpee<g ref="char:EOLhyphen"/>dily to be Repreſſed; for albeit the <hi>Jeſuits</hi> do Empoyſon— —they join, and concur with the <hi>Jeſuits.</hi>—</p>
+               <bibl>
+                  <hi>Gen. xlix. 6.</hi>
+               </bibl>
+               <p>O my ſoul come not thou into their ſecret, nor unto their aſſem<g ref="char:EOLhyphen"/>bly— <hi>Lam. 4.20.</hi> The breath of our noſtrils, the anointed of the Lord was taken in their pits.</p>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Walter Kettilby</hi> at the Biſhops-Head in St. <hi>Paul</hi>'s Church-Yard, 1682.</p>
+         </div>
+         <div type="license">
+            <pb facs="tcp:96572:2"/>
+            <head>
+               <hi>Moore, Mayor.</hi> Martis xxxi<hi rend="sup">o</hi> die Januarii <hi>1681/2.</hi> Anno<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> Regis Carol. Secund. Angl. &amp;c. <hi>34<hi rend="sup">o.</hi>
+               </hi>
+            </head>
+            <p>THis Court doth deſire Dr. <hi>Hickes</hi> to Print his Sermon Preach'd at <hi>Bow-Church</hi> yeſterday (being the day of Humiliation for the Murther of his late Majeſty of ever bleſ<g ref="char:EOLhyphen"/>ſed Memory) before the Lord Mayor, Alder<g ref="char:EOLhyphen"/>men, and Citizens of this City.</p>
+            <closer>
+               <signed>WAGSTAFFE.</signed>
+            </closer>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:96572:2"/>
+            <head>TO The Right Honourable Sir John Moore, LORD MAYOR Of the City of LONDON, And to the Court of ALDERMEN.</head>
+            <opener>
+               <salute>My LORD,</salute>
+            </opener>
+            <p>AS in the primitive ages of Chriſtianity much harm and diſhonour happened unto the Chriſtian Religion by <note n="†" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Dial. cum <hi>Tryph.</hi> &amp; in Apol. 2.</note> 
+               <hi>Atheiſts, Here<g ref="char:EOLhyphen"/>ticks</hi> and <hi>Falſe-teachers,</hi> who were called Chriſti<g ref="char:EOLhyphen"/>ans, and under that glorious denomination taught
+<pb facs="tcp:96572:3"/> ungodly, blaſphemous, unrighteous, and abſurd things: So in this unhappy Age, wherein we live, the <hi>Proteſtant,</hi> which is but another name for the Primitive Chriſtian Religion, hath been much damnified, and diſgraced, by Atheiſtical, Heretical, and other Seducing teachers; who un<g ref="char:EOLhyphen"/>der the name of <hi>Proteſtants</hi> have taught the World, wicked, abſurd and unchriſtian Doctrines, contrary to the true Proteſtant Religion, and ſo have diſgraced the <hi>Proteſtant,</hi> as <hi>Juſtin Martyr</hi> complained, the others did the <hi>Chriſtian</hi> Name.</p>
+            <p>Among theſe we have great reaſon to reckon all thoſe who have taught the People the unchriſtian doctrines of <hi>Diſobedience, Treaſon</hi> and <hi>Rebelli<g ref="char:EOLhyphen"/>on,</hi> of whom I may ſay, as that Father ſaid of the foreſaid Chriſtians, that although they be [<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>] called Proteſtants, yet they are not [<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>] Orthodox and compleat Proteſtants, indeed no more, than the <hi>Sadducees,</hi> and other <hi>Jewiſh</hi> Sectaries, which he mentions, by way of compariſon, were truly Orthodox <hi>Jews.</hi>
+            </p>
+            <p>In this following Diſcourſe I have ſet the pre<g ref="char:EOLhyphen"/>cepts of the Goſpel, and the principles, and prac<g ref="char:EOLhyphen"/>tice of the primitive Chriſtians againſt the prin<g ref="char:EOLhyphen"/>ciples and practices of theſe men, obſerving the ſame method, that a learned Divine did before me in the ſame Audience upon the next words be<g ref="char:EOLhyphen"/>fore
+<pb facs="tcp:96572:3"/> my Text, on the 5th. of <note n="*" place="margin">1680. De<g ref="char:EOLhyphen"/>dicated to Sir <hi>Patience Ward.</hi>
+               </note> 
+               <hi>November;</hi> and one would think, that what paſſed for true, and ſeaſonable Divinity then, ſhould not be miſliked, and condemned now.</p>
+            <p>But yet, <hi>My Lord,</hi> ſo it happens, for ſome men, I hear, who like the preaching of this Doc<g ref="char:EOLhyphen"/>trine one way, do not like it another, when it is charged home upon the culpable Parties; to which, it is to be feared, they have too ſtrong an incli<g ref="char:EOLhyphen"/>nation: Otherwiſe I cannot well imagine why they ſhould ſo publickly, and plainly ſuggeſt that I pretended I could name a great many Authors, and ſome yet living, for the dangerous principles, which I recited, when I had none to name.</p>
+            <p>This Reflexion, <hi>My Lord,</hi> made me ſend back for the ſheets from the Preſs, that I might for my own Juſtification cite the Authors by their Names, and if I have diſobliged any by doing ſo, they muſt not blame me, becauſe it was not my firſt intention, but thoſe, who conſtrained me to be ſo plain.</p>
+            <p>I could have been far more numerous both in reciting their principles, and in citing the Au<g ref="char:EOLhyphen"/>thors of them too; for ſince I made this Diſcourſe, which was a year ago for my Pariſh, <note n="*" place="margin">Diſſenters Sayings in 2 Parts.</note> new Col<g ref="char:EOLhyphen"/>lections have been made out of their Writings, but I have added very little, contenting my ſelf with what I had before provided out of their
+<pb facs="tcp:96572:4"/> Originals, and out of the Collections, which were then to be had; and as the Paſſages, and Au<g ref="char:EOLhyphen"/>thors which I have cited are not the tenth of what hath been Printed; ſo all that they have printed themſelves, or others have printed out of them, is not the tenth, nor perhaps the hundredth part of what men have taught and preached.</p>
+            <p>So much, <hi>My Lord,</hi> hath the contagion of the Popiſh principles of Rebellion over-run theſe Pro<g ref="char:EOLhyphen"/>teſtant Kingdoms; and if what I have ſaid in the following diſcourſe may prove as an Antidote to expell them out of the Soul of any one man, that is infected with them, I ſhall not value what the incurable and impenitent ſort ſay of me, but re<g ref="char:EOLhyphen"/>joice when they ſhall revile me, and perſecute me, and ſay all manner of evil againſt me falſly upon that account.</p>
+            <p>I hope I have ſaid nothing neither as to the mat<g ref="char:EOLhyphen"/>ter nor manner of Expreſſion which the Subject and the Day will not excuſe, but if any think that any Paſſage in it is too keen, let him not be offended, but firſt conſider the merits of the Crime, and then imagine with himſelf what any of the Fathers or Apoſtles whom I have cited in the firſt part, particularly what the Author of the 13th. of the <hi>Romans,</hi> if he had Preached upon that occaſion, would have ſaid thereupon.</p>
+            <pb facs="tcp:96572:4"/>
+            <p>It hath formerly been laid with much accep<g ref="char:EOLhyphen"/>tance to ſome Parties upon the <hi>Papiſts,</hi> who un<g ref="char:EOLhyphen"/>doubtedly had a conſiderable ſhare in the execra<g ref="char:EOLhyphen"/>ble Tragedy, and therefore I hope I ſhall not in<g ref="char:EOLhyphen"/>cur their diſpleaſure by laying it upon Popiſh principles, by which the Papiſts have debauched ſo many Proteſtants from their Allegiance; and if upon the diſmall view of the whole I have uſed ſome warm and ſharp Expreſſions, it was no more than was neceſſary upon that occaſion, to ſhew my juſt Reſentments for ſuch a Crying Abomination, and the deadly Blow which the Proteſtant Religion hath received thereby.</p>
+            <p>I know your Lordſhip is very ſenſible of all this, as every good Proteſtant ought to be; I know your Loyalty is part of your Religion, and that, as St. <note n="*" place="margin">In Pſ. 124.</note> 
+               <hi>Auguſtin</hi> ſpeaks, you faithfully ſerve and obey your temporal for the ſake of your Eter<g ref="char:EOLhyphen"/>nal Lord. The ſenſe of your duty, as a Chriſtian, makes you a moſt obedient Subject, and faithfull Magiſtrate under your Soveraign; and alſo a moſt gratefull Citizen to ſuch a mighty Benefac<g ref="char:EOLhyphen"/>tor to this Illuſtrious City, and as all truly conſcien<g ref="char:EOLhyphen"/>tious loyal men now love and praiſe you for theſe and your other exemplary vertues; ſo they will hereafter honour your Memory for them when you ſhall be tranſlated from this, into the City of <hi>God.</hi>
+            </p>
+            <pb facs="tcp:96572:5"/>
+            <p>I pray God aſſiſt you under the burthen of your preſent Magiſtracy in theſe difficult times, and bleſs you with long Life and Proſperity after you ſhall retire from it, and I am ſure there are great numbers in this City who will heartily join in this Prayer with</p>
+            <closer>
+               <signed>Your Lordſhip's Moſt Faithfull and Obedient Servant <hi>George Hickes.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb facs="tcp:96572:5"/>
+            <head>A SERMON Preached before the LORD MAYOR, <hi>Jan.</hi> 30. 1681/2.</head>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>ACTS xvii. 7.</hi>
+                  </bibl>
+                  <p>—And theſe doe all contrary to the decrees of Caeſar, ſaying, That there is another King, one Jeſus.</p>
+                  <p>The Context before is this:</p>
+                  <p>Theſe that have turned the World upſide down, are come hither alſo, whom Jaſon hath received; and Theſe—</p>
+               </q>
+            </epigraph>
+            <p>AS it is natural to all men to be of ſome Religion, ſo it is natural unto them to be Inquiſitive after the beſt: So that neither the autority of their Anceſtors, nor the Legal Eſtabliſhment, nor the force of Education can overcome their Curioſity, or keep them from hearking to new Prophets, or Teachers of new Re<g ref="char:EOLhyphen"/>ligions, and new Gods.</p>
+            <p>Hence it hath come to paſs, that the moſt dangerous Enemies of any Government have uſually been projectors in Religion; pretending a great Zeal for the right God, or the right Worſhip, and under that pretence have ac<g ref="char:EOLhyphen"/>cuſed the eſtabliſhed Religion of Falſneſs, or Faultineſs, either, that it was not the true Religion, or if it were, yet that it was not ſo Reformed, and Pure, as it ought to be.</p>
+            <p>Theſe Seditious pretences have obliged moſt Govern<g ref="char:EOLhyphen"/>ments to ſecure themſelves by Penal Laws againſt Inno<g ref="char:EOLhyphen"/>vations
+<pb n="2" facs="tcp:96572:6"/> in Religion, having found by Long, and frequent Experience, that Innovators in Sacred were commonly Innovators in Civil matters, and that the plauſible pre<g ref="char:EOLhyphen"/>tence of reforming the Church, did uſually end in the ruine both of Church and State.</p>
+            <p>For this reaſon, as <note n="†" place="margin">De Leg. <hi>L. 1.</hi> Separatim ne<g ref="char:EOLhyphen"/>mo habeſſit Deos, neve novos, ſed ne advenas, niſi publicè adſcitos pri<g ref="char:EOLhyphen"/>vatim colunto, conſtructa à patribus de<g ref="char:EOLhyphen"/>lubra haben<g ref="char:EOLhyphen"/>to.</note> 
+               <hi>Cicero</hi> tells us it was Enacted among the <hi>Romans,</hi> that no man ſhould preſume to wor<g ref="char:EOLhyphen"/>ſhip any new or ſtrange Gods, nor the Gods of the Coun<g ref="char:EOLhyphen"/>trey in private Meetings, or according to private Rites, or Ceremonies, but in the Temples, and after the way of their Anceſtors, which was eſtabliſhed by Law.</p>
+            <p>Theſe Eccleſiaſtical Laws of the ancient <hi>Romans,</hi> were part of the twelve Tables, which they borrowed from the <hi>Athenians,</hi> among whom they were originally ena<g ref="char:EOLhyphen"/>cted; and by virtue of which <hi>Socrates</hi> was condemned, and St. <hi>Paul</hi> above 400 years after him, arraigned at the Supreme Tribunal of that City, for a Setter-forth of ſtrange Gods.</p>
+            <p>In this ſtate did Chriſtianity find the World at its firſt publication armed with Penal, and Sanguinary Laws againſt Innovations in Religion; and the Emperour, and Imperial Powers more eſpecially jealous of <hi>Jewiſh</hi> Pro<g ref="char:EOLhyphen"/>phets and Teachers, becauſe <hi>Judas</hi> of <hi>Galilee, Theudas, Barohosbas,</hi> and other falſe Meſſiaſes had frequently drawn the <hi>Jews</hi> into tumults ſeditions and rebellions; which was the reaſon, that the <hi>Romans</hi> always kept a ſtrong guard in the Temple, and that the chief Captain asked St. <hi>Paul,</hi> if he were that <hi>Egyptian,</hi> meaning <hi>Theudas;</hi> who for<g ref="char:EOLhyphen"/>merly made an Uproar, and led out into the Wilderneſs 4000 men, that were Murtherers.</p>
+            <p>The Emperour, and his Preſidents being thus made jealous of Innovators in Religion in any Province, but eſpecially in <hi>Judaea,</hi> the unbelieving <hi>Jews</hi> took this ad<g ref="char:EOLhyphen"/>vantage to traduce our <hi>Saviour,</hi> and after him his Diſci<g ref="char:EOLhyphen"/>ples before them in every City, and Country where they came. They <note n="†" place="margin">
+                  <hi>Dial. cum</hi> Tryph. 335. <hi>c.</hi> 348. <hi>b.</hi> 350. 363. 371. <hi>Ed.</hi> Par. 1615.</note> followed them for this purpoſe from
+<pb n="3" facs="tcp:96572:6"/> place to place, and moreover made ſpecial uſe of the Doctrine of <hi>Chriſt</hi>'s Kingdome, to make the <hi>Roman</hi> Go<g ref="char:EOLhyphen"/>vernours, and Officers believe that their Doctrine was inconſiſtent with the Government, that they were ene<g ref="char:EOLhyphen"/>mies to <hi>Caeſar,</hi> and his autority, and had a ſecret deſign upon the Empire, cloked under the ſpecious pretence of Religion; and when this would not ſucceed, they ſtirred up the Rabble of all the Cities where they came, to make tumults and uproars againſt them, as <note n="†" place="margin">Juſt. Mart. dial. Tryph. p. <hi>234.</hi>
+               </note> Atheiſts againſt the Deities of the Empire, or Setters-forth of ſtrange Gods.</p>
+            <p>This I ſhall prove at large in the following Diſcourſe, in which I ſhall proceed according to this familiar Me<g ref="char:EOLhyphen"/>thod.</p>
+            <p>Firſt, <hi>I ſhall ſhew, that it was an old charge againſt the primitive profeſſors of the Chriſtian Religion, that they were enemies to</hi> Caeſar, <hi>and did all things contrary to his decrees.</hi>
+            </p>
+            <p n="2">2. <hi>I ſhall prove, that this charge was moſt malicious, and unjuſt.</hi>
+            </p>
+            <p n="3">3. <hi>I ſhall enquire, whether any Modern profeſſors of the Chriſtian Religion, be guilty of this heavy charge.</hi>
+            </p>
+            <p>And laſt of all, <hi>I ſhall conclude with ſome Practical Re<g ref="char:EOLhyphen"/>flexions proper to the Times, and the buſineſs of this day.</hi>
+            </p>
+            <p n="1">I. It hath been an old charge upon the profeſſors of the Chriſtian Religion, that they were enemies to <hi>Caeſar,</hi> and did all things contrary to his Laws: A charge as old as the Founder of it <hi>Chriſt</hi> himſelf; whom the whole Multitude of the <hi>Jews</hi> accuſed before <hi>Pilate,</hi> ſaying, <note n="*" place="margin">Luk. 23.2.</note> 
+               <hi>We have found this fellow perverting the Nation, and forbid<g ref="char:EOLhyphen"/>ding to give tribute unto Caeſar, and ſaying, that he him<g ref="char:EOLhyphen"/>ſelf is a King.</hi> And when <hi>Pilate</hi> being convinced of his innocence, ſought to releaſe him, they cried out the
+<pb n="4" facs="tcp:96572:7"/> more earneſtly, ſaying, <note n="*" place="margin">
+                  <hi>Joh.</hi> 19.12.</note> 
+               <hi>If thou letteſt this man go thou art not Caeſar's friend: Whoſoever maketh himſelf a King,</hi> as this Malefactor doth, <hi>ſpeaketh againſt Caeſar.</hi>
+            </p>
+            <p>And <hi>Acts</hi> 24.5, We find the whole <hi>Sanhedrin</hi> of the <hi>Jews</hi> at <hi>Ceſaraea</hi> accuſing <hi>Paul</hi> before the tribunal of <hi>Foe<g ref="char:EOLhyphen"/>lix</hi> the Governour, that he was the Ringleader of the <hi>Nazarenes,</hi> a peſtilent fellow, and a mover of Sedition among all the diſperſed <hi>Jews</hi> throughout the Empire.</p>
+            <p>And ſo in my Text, <hi>The unbelieving Jews of Theſſa<g ref="char:EOLhyphen"/>lonica moved with envy, took certain lewd fellows of the baſer ſort, and gathered a company, and ſet all the City in an uproar, againſt Paul and Silas, and aſſaulted the houſe of Jaſon,</hi> where they lay; <hi>but when they found them not, they drew Jaſon, and ſome other brethren to the Ruler of the City, crying, Theſe, that have turned the world upſide down, are come hither alſo, and Jaſon hath received them, and they doe all things contrary to the Laws, and Edicts of Caeſar, and ſay there is another King, one Jeſus.</hi>
+            </p>
+            <p>The like <note n="†" place="margin">Epiſt. Ec<g ref="char:EOLhyphen"/>cleſ. Smyrn. de Martyrio Po<g ref="char:EOLhyphen"/>lycarp. apud Euſeb. <hi>4.15.</hi>
+               </note> clamour, and outcry, the Rabble of the un<g ref="char:EOLhyphen"/>believing <hi>Jews</hi> and <hi>Gentiles</hi> made againſt <hi>Polycarp</hi> Bi<g ref="char:EOLhyphen"/>ſhop of <hi>Smyrna,</hi> at the time of his Martyrdom, crying out againſt him to the Governour, <hi>that he ſhould caſt him to the Lyons,</hi> and when he anſwered them he could not, becauſe the Spectacular ſports were concluded, then they cry'd out, <hi>Burn him, burn him,</hi> juſt as the <hi>Jews</hi> cried out againſt <hi>Chriſt</hi> to <hi>Pilate, Crucify him, cru<g ref="char:EOLhyphen"/>cify him.</hi>
+            </p>
+            <p>And <hi>Juſt. Martyr</hi> in his Dial. with <hi>Trypho,</hi> 
+               <note n="†" place="margin">
+                  <hi>p.</hi> 234.</note> tells him, how his Countrymen the <hi>Jews</hi> ſent the beſt men they had from <hi>Jeruſalem,</hi> into all parts of the world, to Calum<g ref="char:EOLhyphen"/>niate, and miſ-repreſent the Chriſtians: From whence, I queſtion not but it came to paſs, that the <hi>Roman</hi> Go<g ref="char:EOLhyphen"/>vernours ſuſpected the Chriſtians to have a deſign upon the Empire, from the falſe notion the <hi>Jews</hi> had given them of <hi>Chriſt</hi>'s Kingdome; inſomuch, that <hi>Juſtin</hi>
+               <pb n="5" facs="tcp:96572:7"/>
+               <note n="†" place="margin">
+                  <hi>p.</hi> 58, 59.</note> told the Emperour and Senate in his ſecond Apology, That if the Kingdome, which the Chriſtians expected, were of this World, they would renounce their Religion rather than die, and certainly endeavour by flight, or abſconding to ſave themſelves, for what they expected to enjoy.</p>
+            <p>Afterwards to juſtifie the Chriſtians from all poſſible ſlanders, and ſuſpicions of being enemies to <hi>Caeſar</hi> and his Government, he proceeds to give them an account of the Doctrines of their Maſter, <hi>Jeſus,</hi> concerning <note n="†" place="margin">
+                  <hi>p.</hi> 61, 62, 63, 64.</note> Patience under ſufferings, and obedience and ſubmiſſi<g ref="char:EOLhyphen"/>on unto <hi>Caeſar,</hi> and all that are put in autority under him.</p>
+            <p>In like manner <hi>Tertullian</hi> to vindicate the Chriſtians from the envious imputation of being <note n="*" place="margin">Hoſtes prin<g ref="char:EOLhyphen"/>cipum Roma<g ref="char:EOLhyphen"/>norum Ter<g ref="char:EOLhyphen"/>tul. Ap.</note> enemies to the Emperors, becauſe they would not ſwear by their Ge<g ref="char:EOLhyphen"/>niuſes, nor give them divine adorations, ſhews from their principles, and practices, that this aſperſion was <note n="†" place="margin">
+                  <g ref="char:V">Ʋ</g>nde Caſ<g ref="char:EOLhyphen"/>ſii, &amp; Nigri, &amp; Albini? unde qui in<g ref="char:EOLhyphen"/>ter duas lau<g ref="char:EOLhyphen"/>rus obſident Caeſarem? unde qui fau<g ref="char:EOLhyphen"/>cibus ejus ex<g ref="char:EOLhyphen"/>primendis pa<g ref="char:EOLhyphen"/>laeſtricum ex<g ref="char:EOLhyphen"/>ercent? unde qui armati Palatium irrumpunt omnibus tot Sigeriis ac Parthenicis audaciores? de Romanis ni fallor, id eſt, de <hi>non Chriſtianis,</hi> Apol. circa Majeſtatem Imperatoris infamamur, ta<g ref="char:EOLhyphen"/>men nunquam Albiniani, vel Nigriani, vel Caſſiani inveniri potuerunt Chriſtiani, ad <hi>Scapul.</hi>
+               </note> falſe of the Chriſtians, but moſt true of the Heathens, who had rebelled againſt ſome, and murthered other <hi>Caeſars;</hi> and therefore in imitation of ſuch great examples, I ſhall pro<g ref="char:EOLhyphen"/>ceeed to enlarge their ſeveral Apologies in this particular under the ſecond diviſion of this diſcourſe wherein I un<g ref="char:EOLhyphen"/>dertook to ſhew.</p>
+            <p n="2">II. That this invidious charge of the <hi>Jews</hi> againſt the primitive Chriſtians, of being enemies to <hi>Caeſar,</hi> and diſturbers of his Government, was moſt malicious, and unjuſt. And this will eaſily appear if we conſider the utter inconſiſtency of it with the Goſpel-doctrines, which they ſo ſtrictly practiſed; the doctrine of obedience, and Submiſſion; the doctrine of Peace, and Quietneſs; and the doctrine of Patience, and Suffering under lawfull powers, commonly called Paſſive Obedience: All which the
+<pb n="6" facs="tcp:96572:8"/> Chriſtian Religion taught, and the primitive Teachers, and Profeſſors of it practiſed to the aſtoniſhment and <note n="*" place="margin">Juſt. Mart. Apol. <hi>1.50.</hi> Euſeb. L. <hi>4.8.</hi>
+               </note> converſion of the Heathen world.</p>
+            <p>I ſhall begin with the precepts of Obedience and Sub<g ref="char:EOLhyphen"/>miſſion, which are ſuch, as theſe:</p>
+            <p>
+               <note n="*" place="margin">Rom. 13.1, 2, 3.</note>
+               <hi>Let every ſoul be ſubject unto the higher powers, for there is no power, but of God; the powers that be are or<g ref="char:EOLhyphen"/>dained of God: Whoſoever therefore reſiſteth the powers, reſiſteth the ordinance of God, and they that reſiſt, ſhall re<g ref="char:EOLhyphen"/>ceive to themſelves damnation. Therefore ye muſt needs be ſubject not only for wrath, but conſcience ſake. Submit your ſelves to every ordinance of man</hi> (<note n="*" place="margin">1 Ep. 2.13.</note> ſaith St. <hi>Peter</hi>) <hi>for the Lord's ſake; whether it be to the King, as ſupreme, or unto Governors, as thoſe, that are ſent by him, for ſo is the will of God.</hi> And St. <hi>Paul</hi> in his Ep. to <note n="†" place="margin">Ch. 3.1.</note> 
+               <hi>Titus,</hi> hath made it the duty of Miniſters to remember the peo<g ref="char:EOLhyphen"/>ple of this, and <hi>to put them in mind to be ſubject to principa<g ref="char:EOLhyphen"/>lities, and powers, amd to obey magiſtrates.</hi>
+            </p>
+            <p>From whence I proceed to the doctrines of Peace, and Quietneſs, which are ſuch as theſe: <hi>Study to be quiet, and to doe your own buſineſs; be humble, and gentle, and as much as lieth in you, live peaceably with all men: put away ſtrife, and clamour, and evil-ſpeaking, and follow after the things which make for peace.</hi>
+            </p>
+            <p>The doctrine of Meekneſs and Humility, is compre<g ref="char:EOLhyphen"/>hended in ſuch precepts as theſe: <hi>Learn of me</hi> (ſaith our Saviour) <hi>for I am meek, and lowly: The fruits of the Spi<g ref="char:EOLhyphen"/>rit are Meekneſs, Peace and Gentleneſs.</hi> And ſaith the Apoſtle to the <hi>Coloſſians, put on as the Elect of God hum<g ref="char:EOLhyphen"/>bleneſs of mind, meekneſs, and long-ſuffering.</hi>
+            </p>
+            <p>It was impoſſible for <hi>Caeſar</hi> to ſuffer by a Religion, which obliged its profeſſors under the pain of damna<g ref="char:EOLhyphen"/>tion to be ſo obedient, peaceable and humble, as theſe precepts oblige all Chriſtians to be; and more impoſſi<g ref="char:EOLhyphen"/>ble yet, if we conſider the doctrines of Patience, and Suffering; which are as plainly, and copiouſly laid down
+<pb n="7" facs="tcp:96572:8"/> in the Goſpel, as any other doctrines, that are taught in the School of <hi>Chriſt.</hi>
+            </p>
+            <p>
+               <hi>This is thank-worthy, (ſaith St.</hi> 
+               <note n="*" place="margin">1 Ep. 2.19, &amp;c.</note>. Peter) <hi>if a man for conſcience-ſake towards God endure grief, ſuffering wrong<g ref="char:EOLhyphen"/>fully, for what glory is it, if when you are buffetted for your faults, you take it patiently? but if when you doe well, you ſhall take it patiently, and ſuffer for it, this is acceptable to God. For even hereunto were ye called, becauſe Chriſt alſo ſuffered for us, leaving us an exam<g ref="char:EOLhyphen"/>ple, that we ſhould follow his ſteps: Who when he was reviled, reviled not again; when he ſuffered, threatned not; but was led like a lamb to the ſlaughter, and, like a ſheep, that is dumb before his ſhearers, he opened not his mouth. And rejoice (ſaith he) in as much, as you are par<g ref="char:EOLhyphen"/>takers of Chriſt's ſufferings: For if you are reproached for the name of Chriſt, happy are ye; and if any man ſuffer as a Chriſtian, let him glorifie God on that behalf.</hi> According to which (ſaith the Apoſtle to the <hi>Hebrews</hi> in a time of perſecution) <hi>Let us look unto Jeſus the author, and finiſher of our faith, let us conſider him, who en<g ref="char:EOLhyphen"/>dured ſuch contradiction of ſinners, leſt we be wearied, and faint in our minds, and conſider alſo, that you have not yet reſiſted unto bloud-</hi>
+            </p>
+            <p>The Goſpel is a ſuffering Religion, and promiſeth ſpe<g ref="char:EOLhyphen"/>cial rewards to thoſe, who will leave houſes, and lands, and wives, and children, and lay down their lives for <hi>Chriſt</hi>'s ſake. It teacheth us, that <hi>Chriſt</hi> the captain of our Salvation, was made perfect through ſufferings; that we are baptized into his death, and that as many of us as ſhall be partakers of his ſufferings, ſhall alſo be partakers of his glory; who when he had endured the Croſs and deſpiſed the ſhame thereof, was ſet down at the right hand of the Majeſty on high. Therefore (ſaith St. <hi>Paul) I endure all things, that I may obtain the Sal<g ref="char:EOLhyphen"/>vation, which is in Jeſus Chriſt; for if we ſuffer with him, we ſhall reign with him. Thou therefore, Son Timothy, en<g ref="char:EOLhyphen"/>dure
+<pb n="8" facs="tcp:96572:9"/> hardneſs, as a good ſoldier of Jeſus Chriſt.</hi> According<g ref="char:EOLhyphen"/>ly it puts no great value, nor looks upon any Chriſtian to be a true, and <note n="†" place="margin">1 Cor. 26.13. Eph. 6.10, 11, 12, 13. 2 Tim. 2.3, 4. <hi>Epiſt. Ignat. ad. Rom. Cy<g ref="char:EOLhyphen"/>prian. ad Thi<g ref="char:EOLhyphen"/>barit Ep. &amp; de Lapſis.</hi>
+               </note> compleat diſciple of <hi>Chriſt;</hi> who can<g ref="char:EOLhyphen"/>not when, he is called thereunto, take up his Croſs, drink of his cup, and be baptized with his baptiſm; nei<g ref="char:EOLhyphen"/>ther doth it preſcribe any remedy but flight againſt the perſecutions of the lawfull Magiſtrate, allowing of no other mean when we cannot eſcape betwixt denying, and dy<g ref="char:EOLhyphen"/>ing for the faith.</p>
+            <p>It would be endleſs to cite all the paſſages in the Goſ<g ref="char:EOLhyphen"/>pel; which ſhow it to be an obedient, peaceable, meek, and ſuffering doctrine, and ſo far from being prejudicial to <hi>Caeſar</hi>'s autority, that it makes him the <hi>Miniſter of God,</hi> and commands its profeſſors to give him and all that are put in autority under him, their dues, and ra<g ref="char:EOLhyphen"/>ther dye than reſiſt them by force. <hi>Render unto Caeſar, (ſaith Chriſt) the things, that are Caeſar's, and unto God the things, that are God's. And ye muſt needs be ſubject, ſaith St.</hi> Paul, <hi>and for this cauſe pay ye tribute, becauſe they are God's Miniſters. Therefore render to all of them their dues, tribute to whom tribute, cuſtom to whom cuſtom, fear to whom fear, and honour to whom honour is due.</hi>
+            </p>
+            <p>Hitherto we have ſeen what Chriſtianity taught, as to active and paſſive obedience unto <hi>Caeſar;</hi> Let us now pro<g ref="char:EOLhyphen"/>ceed to enquire what the primitive Chriſtians practiſed, and begin our enquiry at the practice of the Founder of it, <hi>Jeſus Chriſt.</hi>
+            </p>
+            <p>As for him, as he taught, ſo he lived: he verified his own doctrine, and exemplified his own precepts, both as to active, and paſſive obedience; for, as <hi>Juſtin Martyr</hi> told the Emperor, he paid tribute unto <hi>Caeſar,</hi> as well as other <hi>Jews</hi> of the Province; and rather, than reſiſt the lawfull autority, which ſent to apprehend him, he let himſelf be led as a lamb to the ſlaughter, ſaying unto <hi>Peter,</hi> who drew his ſword: <hi>Put up thy ſword into his place, for all they that take the ſword, ſhall periſh by the
+<pb n="9" facs="tcp:96572:9"/> ſword; and thinkeſt thou if I would reſiſt, that I cannot pray to my Father, and he would preſently give me more, than twelve legions of Angels.</hi> And when he was arraigned of high treaſon before <hi>Pilate</hi> for calling himſelf a King, he made his defence in theſe words: <note n="*" place="margin">
+                  <hi>Joh.</hi> 18.36.</note> 
+               <hi>My kingdome is not of this world, for if my kingdome were of this world, then would my ſervants fight, that I ſhould not be deli<g ref="char:EOLhyphen"/>vered to the Jews, [but I own my ſelf to be Caeſar's ſubject] and my kingdome is not from hence.</hi>
+            </p>
+            <p>Thus he ſet the example, and the Apoſtles the next Promulgers of the Goſpel, followed his ſteps: For the firſt time they were beaten by the <hi>Sanhedrin</hi> for preach<g ref="char:EOLhyphen"/>ing <hi>Jeſus,</hi> and the Reſurrection, they <note n="*" place="margin">Acts 5.41.</note> 
+               <hi>rejoiced that they were counted worthy to ſuffer for his</hi> holy <hi>Name.</hi> Saint <hi>Paul</hi> in particular ſpeaking of his ſtripes above meaſure; of his frequent impriſonments, and of his being ſo often near death, <hi>I glory</hi> (ſaith he) <hi>in theſe things, which con<g ref="char:EOLhyphen"/>cern mine infirmities</hi> as he calls his ſufferings, and perſe<g ref="char:EOLhyphen"/>cutions) and exhorts the whole Church of <hi>Corinth</hi> to endure ſufferings after the example of the Apoſtles, <hi>who,</hi> as he tells them, <hi>were preſſed above meaſure, and above ſtrength; and who deſpaired of life, having the ſentence of death continually in themſelves.</hi>
+            </p>
+            <p>Yet in all this they finned not, nor never ſo much, as thought of reſiſting the powers, but ſtill ſuffered accor<g ref="char:EOLhyphen"/>ding to the will of God, <hi>committing their ſouls unto him, as unto a faithfull Creator.</hi> And therefore when <hi>Tertullus</hi> in the name of the <hi>Sanhedrin,</hi> accuſed <hi>Paul</hi> for a mo<g ref="char:EOLhyphen"/>ver of Sedition before <hi>Foelix,</hi> he denied the charge, ſay<g ref="char:EOLhyphen"/>ing, <hi>They neither found me in the Temple diſputing with any man, nor raiſing up the people; neither in the Syna<g ref="char:EOLhyphen"/>gogues, nor in the City; neither can they prove theſe things whereof they now accuſe me.</hi>
+            </p>
+            <p>Nay, ſo eminent was the patience and paſſive obedi<g ref="char:EOLhyphen"/>ence of the primitive Chriſtians, that St. <hi>Paul</hi> applies this Text unto them out of the <hi>Pſalmiſt: For thy ſake
+<pb n="10" facs="tcp:96572:10"/> are we killed all the day long, we are counted as ſheep for the ſlaughter. They followed the Lamb that was ſlain, they overcame the Dragon by the blood of the Lamb, they waſhed their garments in wine, and their clothes in the myſtical blood of grapes; and if any man</hi> (ſaith St. <hi>John) have an ear to hear, let him hear: He that killeth with the ſword, ſhall be killed with the ſword.</hi> Here is the faith and patience of the Saints.</p>
+            <p>And as the Apoſtles followed the Lamb: ſo their diſ<g ref="char:EOLhyphen"/>ciples and ſucceſſors followed them. For St. <hi>Ignatius</hi> the Diſciple of St. <hi>John,</hi> gloried in the bonds, in which he was carried from <hi>Antioch</hi> to <hi>Rome,</hi> and rejoiced to think, as he ſpeaks in his Epiſtle to the <hi>Romans, That he was not of the tares, but of the wheat, which was to be ground by the teeth of the wild beaſts to make the pure bread of God.</hi> That whole Epiſtle is <note n="†" place="margin">Such as, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>—</note> full of divine, and heroical ſtrains of Chri<g ref="char:EOLhyphen"/>ſtian patience and courage; and in his Epiſtle to the Church of <hi>Smyrna,</hi> ſpeak<g ref="char:EOLhyphen"/>ing of his ſufferings, he ſaith, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>; <hi>He that is near the ſword is near God, and he that is in the Theatre among the wild beaſts, is as it were in the midſt of God.</hi> He ſuffered at a time, when Chriſtians ſuffered in multitudes, and when they were in a condition to reſiſt; For <hi>Pliny</hi> in his Epiſtle to the Emperor about the Chriſtians, told him, <note n="†" place="margin">
+                  <hi>L. 20. Ep. 97.</hi> Viſa eſt enim mihi res digna conſultatione maximè proptu periclitantium numerum, multi enim omnis aetatis, omnis ordinis, utriuſque ſexûs etiam vocantur in periculum &amp; vocabuntur, neque enim civitates tantum, ſed vicos etiam atque agros ſuperſtitionis iſtius contagio pervagata eſt— Certe ſatis conſtat prope jam deſolata templa,— &amp; ſacra ſolemnia diù intermiſſa—</note> 
+               <q rend="margQuotes">That the contagion of the Chriſtian Religion had ſo infected the Towns, Cities and Villages of <hi>By<g ref="char:EOLhyphen"/>thinia,</hi> that the Temples were become deſolate, and
+<pb n="11" facs="tcp:96572:10"/> the ſolemnities of the Gods almoſt quite left of:</q> And <hi>Tiberianus</hi> his Preſident of <hi>Paleſtine,</hi> in a Letter to his Majeſty upon the ſame occaſion, told him, that he was <note n="*" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>—</note> 
+               <q rend="margQuotes">weary with killing the Chriſtians, who diſcovered themſelves unſought for, and multiplied the more, the more they were put to death.</q> So early were the Chriſtians in a probable capacity of defending them<g ref="char:EOLhyphen"/>ſelves; but yet rather than doe ſo by reſiſting the law<g ref="char:EOLhyphen"/>full Powers, <hi>they were led like Lambs to the ſlaughter, and like ſheep that were dumb before their ſhearers, they opened not their mouths.</hi>
+            </p>
+            <p>About Fifty years after this, when the Chriſtians were grown far more numerous, <hi>Juſtin Martyr</hi> told the Emperor <hi>Antoninus,</hi> 
+               <q rend="margQuotes">That they were the moſt innocent and obedient of all his Subjects, taking care above all things, according to the precepts, and example of their Maſter, <note n="†" place="margin">2 <hi>Apol. p.</hi> 64.</note> to pay him all his cuſtoms and tribute; and that next after God, they loved and obeyed his Majeſty, acknowledging Emperors and Rulers to be ordained of God; and praying always, that together with his Imperial power, he might enjoy a ſound and ſober mind.</q>
+            </p>
+            <p>And <hi>Polycarp</hi> Biſhop of <hi>Smyrna,</hi> another Diſciple of St. <hi>John,</hi> who ſuffered about this time, beſpoke the Pre<g ref="char:EOLhyphen"/>ſident, who had commanded him to ſwear by the Em<g ref="char:EOLhyphen"/>peror's-Genius, in the name of the Chriſtians thus: <note n="*" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, Eccleſ. Smyrn. de Mart. <hi>Polyc.</hi>
+               </note> 
+               <q rend="margQuotes">We are taught to yield obedi<g ref="char:EOLhyphen"/>ence to all Principalities and Powers ordained un<g ref="char:EOLhyphen"/>der God, except in doing things which are deſtructive of our Souls: Therefore doe as thou pleaſeſt, caſt me to the wild Beaſts, or into the Fire, which is not to be compared to that Eternal
+<pb n="12" facs="tcp:96572:11"/> fire, which thou knoweſt not to be reſerved for the ungodly at the laſt judgment.</q>
+            </p>
+            <p>A little after this: <hi>Athenagoras</hi> wrote his Apology for the Chriſtians to the Emperor <hi>Marcus Antoninus,</hi> and <hi>Commodus</hi> his Son, which in the Name of the Chri<g ref="char:EOLhyphen"/>ſtians, concludes thus: <note n="†" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, &amp;c.</note>
+               <q rend="margQuotes">We daily pray for your Empire, and that the Son, as it is juſt, ſhould Succeed in his Father's Throne, and that God would increaſe your Dominions more, and more.</q>
+            </p>
+            <p>This was the diſpoſition of the Chriſtians then, when the Emperors, grown ſecure of their Loyalty, let them ſerve in their Armies in times of Perſecution; inſomuch that Twenty years after this, <hi>Tertullian</hi> told them, <q rend="margQuotes">That though the Chriſtians were but of <note n="†" place="margin">In Apol. Heſterni ſumus, &amp; veſtra omnia im<g ref="char:EOLhyphen"/>plevimus, &amp;c. Tanta hominum multitudo pars pe<g ref="char:EOLhyphen"/>ne Major Civitatis cujuſque— ad <hi>Scapulam.</hi>
+                  </note> yeſterday, yet all places were full of them: the Cities, Towns, Iſlands, Caſtles, and Cor<g ref="char:EOLhyphen"/>porations; the Senate, the Pallace, the Courts of Ju<g ref="char:EOLhyphen"/>dicature, their Tribes, their Companies; nay, the Ar<g ref="char:EOLhyphen"/>my it ſelf, and that they had left them nothing but their Temples, and appeals unto them if they were not numerous enough to make greater Armies than any were in the world.</q> Yet then when their numbers made them formidable they lived in perfect obedience, and ſubjection under the perſecuting powers, and daily <note n="*" place="margin">Oramus etiam pro Im<g ref="char:EOLhyphen"/>peratoribus, pro miniſtris eorum, ac poteſtatibus— Nos enim pro ſalute Imperatorum Deum invocamus Aeternum— eſt &amp; alia major neceſſitas nobis orandi pro Imperatoribus, etiam pro omni ſtatu Imperii rebuſque Ro<g ref="char:EOLhyphen"/>manis— in <hi>Apol.</hi> &amp; ad <hi>Scapulam.</hi> Chriſtianus nullius eſt hoſtis Nedum Imperatoris—</note> prayed for the Emperor, the proſperity of his Empire, and the ſucceſs of his Armies.</p>
+            <pb n="13" facs="tcp:96572:11"/>
+            <p>And <hi>Cyprian</hi> forty years after him, writes to the ſame purpoſe to <hi>Demetria<g ref="char:EOLhyphen"/>nus,</hi> 
+               <note n="†" place="margin">Nemo noſtrûm quando apprehenditur relucta<g ref="char:EOLhyphen"/>tur, nec ſe adverſus injuſtam violentiam veſtram, quamvis nimius &amp; copioſus noſter ſit populus ulciſcitur.</note> 
+               <q rend="margQuotes">That they were be<g ref="char:EOLhyphen"/>come a very numerous people, and the greater part of the Empire, and yet not a man of them did reſiſt, when he was apprehended, nor revenge the injuries, which they endured.</q>
+            </p>
+            <p>They had power, and force, and opportunity en<g ref="char:EOLhyphen"/>ough to doe ſo, for by this time great numbers not only of the common Soldiers, but of the Officers, and Comman<g ref="char:EOLhyphen"/>ders, were become Chriſtians, and ſome Companies and Troops conſiſted almoſt of nothing elſe. For about Thirty years after in the time of <hi>Diocleſian,</hi> the <note n="*" place="margin">Vide <hi>Eucher.</hi> Epiſcop. Lugd. ap. Sur. Sept. 22. Et <hi>Grot.</hi> de jure, <hi>L.</hi> 2. <hi>C. 4. 6, 11, 12, 13.</hi>
+               </note> 
+               <hi>Theboean</hi> Legion conſiſt<g ref="char:EOLhyphen"/>ing of 6666. Soldiers, all gallant Chriſtians, is a moſt compleat and admirable ex<g ref="char:EOLhyphen"/>ample of patience, and paſſive obedience, a Doctrine now ſo exploded in the world.</p>
+            <p>They lay with the reſt of the Army at <hi>Octodurum</hi> in <hi>Savoy,</hi> when <hi>Maximian</hi> commanded them to Sa<g ref="char:EOLhyphen"/>crifice to the Gods. The command being given, they withdrew a little off to a Village called <hi>Agaunum,</hi> whither the Emperour ſent after them to come and Sacrifice with the reſt. They excuſed themſelves with all ſubmiſſion; but the cruel Emperor upon their refuſal, commanded a Decimation, which was imme<g ref="char:EOLhyphen"/>diately executed without the leaſt ſhow of oppoſition or reſiſtance; <hi>Mauritius</hi> their Commander, from whom <hi>Agaunum</hi> hath long been called. St. <hi>Maurice,</hi> ſpeaking to them thus:</p>
+            <pb n="14" facs="tcp:96572:12"/>
+            <p>
+               <q rend="margQuotes">I was very much afraid (fellow-ſoldiers) leſt any of you, as it is natural for armed men eſpecially to doe, ſhould have reſiſted under the pretext of ſelf-defence: And I was prepared to forbid you to doe ſo in the Name, and by the example of <hi>Chriſt,</hi> who commanded <hi>Peter,</hi> when he drew his ſword, to put it up again; and ſo he went on exhorting them to follow the example of <hi>Chriſt.</hi>
+               </q>
+            </p>
+            <p>The firſt Decimation being ended, the Emperor commanded a ſecond, when ſome of them beſpoke him thus: <q rend="margQuotes">We are thy Soldiers, <hi>Caeſar,</hi> and have ta<g ref="char:EOLhyphen"/>ken up Arms to defend the Empire, and have ne<g ref="char:EOLhyphen"/>ver yet been puniſhed as Deſertors, Traitours or Cowards, and we would now obey thee in this matter, but that our Religion forbids us to wor<g ref="char:EOLhyphen"/>ſhip <hi>Demons,</hi> or approach their polluted Altars; doe what thou pleaſeſt, for we are thy Subjects as to our bodies, but our Souls now look up unto the Founder of our Religion, <hi>Chriſt.</hi>
+               </q>
+            </p>
+            <p>After that, <hi>Exuperius</hi> the Standard-bearer, ſpoke thus: <q rend="margQuotes">You ſee fellow-ſoldiers I bear the Eagle, the ſign of Secular War, but it is not to theſe Arms that I deſire to provoke you, nor in war of this na<g ref="char:EOLhyphen"/>ture, that I would have you ſhow your valour, but in another way of combating, by which and not by your ſwords, you ſhall win the Kingdom of heaven.</q>
+            </p>
+            <p>He left alſo this Meſſage to be ſent to the Emperor, <q rend="margQuotes">That deſperation which made all other men valiant in dangers, could not tempt them to uſe their Arms againſt his Majeſty, who refuſed to reſiſt with their ſwords in their hands, becauſe their Religion taught them to dye in innocence, rather than ſurvive in ſin.</q>
+            </p>
+            <p>The Emperor enraged with their invincible perſe<g ref="char:EOLhyphen"/>verance after the ſecond Decimation, commanded the
+<pb n="15" facs="tcp:96572:12"/> whole Army to fall in upon them, who preſently cut them off.</p>
+            <p>This happened between the ninth and tenth Perſe<g ref="char:EOLhyphen"/>cution of the Chriſtians, when, as <note n="†" place="margin">
+                  <hi>Lib.</hi> 5. Stultoſque arbitrantur eſſe qui cum habeant in ſuâ poteſtate ſup<g ref="char:EOLhyphen"/>plicia vitare, cruciari ta<g ref="char:EOLhyphen"/>men &amp; im<g ref="char:EOLhyphen"/>mori malunt, cum poſſint ex eo ipſo videre non eſſe ſtructitiam, in quam tanta hominum millia per orbem totum unâ &amp; pari mente conſentiant, —cum vero ab ortu ſolis uſque ad occaſum lex divina ſuſcepta ſit &amp; omnis ſexus, omnis aetas &amp; gens &amp; Regio unitis ac paribus animis Deo ſerviant eadem ſit ubique patientia, idem contemptus mortis, <hi>&amp;c.</hi>
+               </note> 
+               <hi>Lactantius</hi> writes of them, <hi>Cum tam nefanda perpetimur ne verbo quidem reluctamur, ſed Deo remittimus rectionem, When we ſuffer ſuch unexpreſſible torments, we do not ſo much as uſe any ſtubborn language, but call upon God to avenge our blood.</hi>
+            </p>
+            <p>Such was the Faith, and ſuch the Patience of the primitive Chriſtians from the time of <hi>Chriſt</hi>'s aſcen<g ref="char:EOLhyphen"/>ſion, till the time of <hi>Conſtantine</hi> the Great. Then the Church was bleſſed with peace and quietneſs, till the ſhort reign of <note n="†" place="margin">Julianus extitit infide<g ref="char:EOLhyphen"/>lis Imperator, nonne extitit apoſtata, ini<g ref="char:EOLhyphen"/>quus, idolo<g ref="char:EOLhyphen"/>latra? Mi<g ref="char:EOLhyphen"/>lites Chriſtiani ſervierunt Imperatori infideli, ubi veniebatur ad cauſam Chriſti non agnoſcebant niſi illam, qui in coelo erat, quando veniebat ut idola colerent, ut Thurificarent, praeponebant illi Deum, quando autem dicebat producite aciem, ite contra illam gentem, ſtatim obtemperabant, diſtinguebant dominum aeternum à domino temporali, &amp; tamen ſubditi erant propter dominum aeternum etiam domino temporali, <hi>Auguſt.</hi> in Pſ. 124.</note> 
+               <hi>Julian</hi> the Apoſtate, who began to per<g ref="char:EOLhyphen"/>ſecute again, when the Empire, and Army, now in a manner wholly Chriſtian, adhered to their former principles, and withſtood him no otherwiſe; as <note n="*" place="margin">Orat. 1. in <hi>Julian.</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>Na<g ref="char:EOLhyphen"/>zianzen</hi> tells us, than with prayers and tears.</p>
+            <p>Hitherto, and much longer the Chriſtian world was utterly ignorant of ſeditious and rebellious do<g ref="char:EOLhyphen"/>ctrines both under the <hi>Pagan,</hi> and <note n="*" place="margin">Vid. <hi>Atha<g ref="char:EOLhyphen"/>naſii</hi> Apol. ad Conſt. &amp; Ho<g ref="char:EOLhyphen"/>ſium &amp; Libe<g ref="char:EOLhyphen"/>rium apud <hi>Athan.</hi>
+               </note> 
+               <hi>Arrian</hi> Emper<g ref="char:EOLhyphen"/>ours</p>
+            <p>To reſiſt Autority under the ſpecious pretence of defending themſelves and their Religion; to enter in<g ref="char:EOLhyphen"/>to Leagues, Covenants and Aſſociations againſt the Emperor and the Empire; to fight him from Field to
+<pb n="16" facs="tcp:96572:13"/> Field, and from Country to Country; to hale him from one Priſon to another, then to arraign him of high Treaſon againſt his own Subjects, and ſo cut off his Head, were things not more inconſiſtent with the notion of Monarchical government, and the ex<g ref="char:EOLhyphen"/>preſs doctrines of the Goſpel, than with the paſſive and obedient temper of the Chriſtians in thoſe happy and glorious times.</p>
+            <p>Hitherto, and much longer, it had not ſo much as entered into their hearts <note n="*" place="margin">See the Aſ<g ref="char:EOLhyphen"/>ſociation in the Proceed<g ref="char:EOLhyphen"/>ings, &amp;c.</note> to <hi>oppoſe, or endeavour to ſubdue, expell, or deſtroy any</hi> Pagan <hi>Apoſtate, or</hi> Arrian <hi>Emperor;</hi> they knew not as yet what it was to <hi>promiſe and proteſt in the preſence of God, to defend</hi> the Chriſtian religion againſt Idolatry, Heriſie, and Superſtition; and therefore</p>
+            <p n="3">III. I proceed in the third place to enquire, whe<g ref="char:EOLhyphen"/>ther any Modern profeſſors of the Chriſtian religion be guilty of this heavy Charge, of which the Ance<g ref="char:EOLhyphen"/>ſtors of our Profeſſion, the primitive Chriſtians, were ſo innocent and free.</p>
+            <p>
+               <hi>For in the laſt days</hi> (ſaith St. <hi>Paul) perilous times ſhall come; for men ſhall be</hi> much for ſelf-preſervation, or <hi>lovers of their own ſelves; covetous; proud; boa<g ref="char:EOLhyphen"/>ſters; blaſphemers; diſobedient to parents; unthankfull; unholy; without natural affection;</hi> promiſe, or <hi>truce-breakers; falſe accuſers; incontinent; fierce;</hi> haters, or <hi>deſpiſers of thoſe that are good; Traitours; heady; high-minded; lovers of pleaſure more than lovers of God, having a form,</hi> or outward appearance <hi>of godlineſs, but denying the power thereof.</hi>
+            </p>
+            <p>Here we ſee this odious Charge, which was ſo un<g ref="char:EOLhyphen"/>juſtly laid upon the Primitive, is Prophetically drawn up by the Apoſtle againſt theſe laſt times, in which we and our Anceſtors have lived.</p>
+            <pb n="17" facs="tcp:96572:13"/>
+            <p>And it hath been abundantly verified, and fulfilled not only by the Papiſts, but by thoſe, who have imbibed the Popiſh Principles of Rebellion, the Bloody Refor<g ref="char:EOLhyphen"/>mers of the Epiſcopal Reformation in theſe Kingdoms; whom without any other Apology, but what the Day will make for me, I ſhall prove, Firſt from their Prin<g ref="char:EOLhyphen"/>ciples, and Secondly from their Practices, to have been a peſtilent ſort of people, and movers of Sedition, ene<g ref="char:EOLhyphen"/>mies from their firſt Original unto <hi>Caeſar,</hi> haters of His Royal Prerogative, and Actors againſt his Intereſt and Decrees.</p>
+            <p>As for their Principles take them, as I find them laid down by the Anti-Epiſcopal Writers, in ſuch Aſſertions, and Doctrines, as theſe.</p>
+            <p n="1">1. That the people are better than the King,<note place="margin">
+                  <hi>Buchanan de jure regni. Knox hiſt.</hi> and <hi>appell.</hi> and <hi>Goodman,</hi> as may be ſeen at large in <hi>Bancrofts</hi> dangerous poſitions, <hi>book</hi> 1. <hi>ch.</hi> 3. and <hi>Lyſimachus Nicano<gap reason="illegible" resp="#UOM" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </hi> Letter of thanks, <hi>ſecond Edition,</hi> 1679.</note> and of greater Authority.</p>
+            <p n="2">2. That they have a right to beſtow the Crown at their pleaſure.<note place="margin">All to the 15th, to be ſeen in <hi>Bancr.</hi> dang. poſ. b. 1. ch. 3. b. 2. ch 1. and ma<g ref="char:EOLhyphen"/>ny of them in Sir <hi>W. Dug<g ref="char:EOLhyphen"/>dales</hi> ſhort view of the late troubles, p. 17, 18, 19. out of <hi>Buch. Goodman, Knox, Barrow.</hi> See alſo <hi>Herod</hi> and <hi>Pilate,</hi> p. <hi>47.</hi>
+               </note>
+            </p>
+            <p n="3">3. That the making of Laws doth belong to the People, and that Kings are but as Maſters of the Rouls.</p>
+            <p n="4">4. That the People have the ſame power over the King, that the King hath over any one man.</p>
+            <p n="5">5. That they may Arraign their Prince.<note place="margin">In <hi>Euſebius Philadelphus</hi> from <hi>Edin<g ref="char:EOLhyphen"/>burgh,</hi> dial. <hi>2.</hi> p. <hi>57.</hi> Vindiciae contra tyran<g ref="char:EOLhyphen"/>nos, p. <hi>206. Fenners</hi> Sacra Theol. commen<g ref="char:EOLhyphen"/>ded by <hi>Cart<g ref="char:EOLhyphen"/>wright</hi> l. <hi>5.</hi> c. <hi>13</hi> p. <hi>185.</hi>
+               </note>
+            </p>
+            <p n="6">6. That if Princes be Tyrants againſt God, and his Truth, their Subjects are free from their Oath of Alle<g ref="char:EOLhyphen"/>giance.</p>
+            <p n="7">7. That they may for juſt cauſes be Depoſed.</p>
+            <p n="8">8. That it is not Birth-right, nor Propinquity of blood, that maketh a King lawfully to reign over a people profeſſing Jeſus Chriſt.</p>
+            <p n="9">
+               <pb n="18" facs="tcp:96572:14"/>
+               <note place="margin">Tenures of Kings and Magiſtrates, <hi>1640. Rob. Rollock</hi> in Dan. c. 5. p. 150. all cited in <hi>Herod</hi> and <hi>
+                     <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ilat,</hi> p. 51, 52, 53. See <hi>Knox</hi> compared with <hi>Eman. Sa, Suarez,</hi> and <hi>Philopatris.</hi> As to 6, and 7, in <hi>Lyſimach. Nicanor,</hi> 35, 36, 37. <hi>Knox</hi> in <hi>Fouiis</hi> hiſt. wicked plots, b. 1. ch. 7. As to the 9th, See <hi>Buchanan</hi> compared with <hi>Suarez, Lyſim. Nic.</hi> 39.</note>9. That it were good, that rewards were appointed by the people for ſuch as ſhould kill Tyrants, as com<g ref="char:EOLhyphen"/>monly there is for thoſe that kill Wolves, or Bears, or to take away their Whelps.</p>
+            <p n="10">
+               <note place="margin">
+                  <hi>Cartwrights</hi> laſt reply, p. 65. The humble Pe<g ref="char:EOLhyphen"/>tition to the Queen, p 55. Defence of the Diſcipline againſt Mr. <hi>Bridges,</hi> p. 127. Cited in the Epiſt. Ded. to <hi>Herod</hi> and <hi>Pilate. Cartwright, Travers</hi> and <hi>Buch.</hi> compared with <hi>Bellarm. Azor.</hi> and <hi>Suarez,</hi> as to Excommunication of Prin<g ref="char:EOLhyphen"/>ces, <hi>Lyſim. Nican.</hi> 30, 31.</note>10. That the King may be Excommunicated by the Miniſters.</p>
+            <p n="11">11. And that he who by Excommunication is caſt into hell, is not worthy to enjoy any life upon earth.</p>
+            <p n="12">
+               <note place="margin">
+                  <hi>Whittingham</hi> in his Preface to <hi>Goodmans</hi> book.</note>12. That when Kings will not reform Religion, the Nobles and inferiour Magiſtrates may, and if they re<g ref="char:EOLhyphen"/>fuſe, that the People are bound to do it, though it be by <note n="*" place="margin">Willock <hi>and</hi> Knox <hi>in</hi> Spotſ. <hi>hiſt. l.</hi> 3. <hi>p.</hi> 136.</note> Depoſing, or the <note n="‖" place="margin">
+                  <hi>Bancrofts</hi> dang. poſ. b. z. ch. 1. p. 34. Lex Rex, p. 173.</note> Death of their King.</p>
+            <p n="13">
+               <note place="margin">
+                  <hi>Canterbury's</hi> doom, p. <hi>290.</hi> &amp;c. <hi>Staunton</hi> to the Commons, April <hi>24. 1644</hi> p. <hi>28.</hi>
+               </note>13. That the Nobility, inferiour Magiſtrates, and the People are bound to reſiſt Idolatry by force.</p>
+            <p n="14">14. That if the Magiſtrates refuſe, the People may, and ought to put Maſs-Prieſts, and Maſs-Preachers to death, and that in doing ſo, they ſhew the ſame Zeal, which God commended in <hi>Phinehas.</hi>
+            </p>
+            <p n="15">
+               <note place="margin">
+                  <hi>Knox</hi> hiſt. cited in the Narra<g ref="char:EOLhyphen"/>tive of Arch. B. of St. <hi>Andrews</hi> murder, p. 67. ib. 17, 18, 19. <hi>Bancr.</hi> dang. poſ. b. 2. ch. 1. View of the late troubles, p. 17, 18,</note>15. That the example of <hi>Phinehas</hi> ſtands to us inſtead of a command, becauſe what God hath commanded, or approved in one age, muſt needs oblige in all.</p>
+            <p n="16">16. That it is not ſufficient for Subjects not to obey the wicked commandments of their Princes, but they muſt reſiſt them alſo, and deliver the children of God out of the hands of their enemies, as we would deliver a ſheep, that is in danger to be devoured by a Wolf.</p>
+            <p n="17">
+               <pb n="19" facs="tcp:96572:14"/>17. That Kings,<note place="margin">Jus populi p. <hi>1. 1644.</hi>
+               </note> Princes and Governours have their Authority from the people, who may take it away from them, as men may revoke their Proxies and Letters of Attorney.</p>
+            <p n="18">18. That Noblemen were ordained to bridle Princes,<note place="margin">
+                  <hi>Rutherſord's</hi> Lex Rex, p. <hi>177</hi>
+               </note> and that they have their honour of the people to revenge the injuries of their Kings.</p>
+            <p n="19">19. That there is a mutual obligation betwixt the Prince, and his Subjects,<note place="margin">
+                  <hi>See</hi> Lyſim Ni<g ref="char:EOLhyphen"/>can. <hi>p.</hi> 11, 12, 13</note> and that if he perform not his duty, they are diſcharged from theirs.</p>
+            <p n="20">20. That to diſobey Princes,<note place="margin">Covenanters inſtruction for defenſive arms. <hi>Naphtali.</hi> p. 157. Lex Rex, p. 267.</note> which ſubmit their Scepters to Chriſts Scepter, and act in ſubordination to him, is indeed rebellion: but to reſiſt, and riſe up againſt Princes, which do not do ſo, is not to diſobey him, but to obey God, who in this caſe becomes their Superiour, and Liege Lord.</p>
+            <p n="21">21. That Judges ought by the Law of God to ſum<g ref="char:EOLhyphen"/>mon Princes before them for their crimes,<note place="margin">
+                  <hi>Bancr.</hi> Dang. poſ. p. 36.</note> and proceed againſt them as againſt other offenders, and that <note n="*" place="margin">L<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>x Rex, p. 173, 175.</note> the <hi>Sanhedrim</hi> ought to have put <hi>David</hi> to death.</p>
+            <p n="22">22. That wicked Kings,<note place="margin">The Tenure of Kings and Ma<g ref="char:EOLhyphen"/>giſtrates, 1649. <hi>Buch.</hi> de jure regni. <hi>Good<g ref="char:EOLhyphen"/>man</hi> in dang. poſ. b. 1. ch. 1.</note> and Tyrants ought to be put to death, and that when Magiſtrates ceaſe to do their duty, as to this particular, the Sword falls into the hands of the people, and that if neither the Magi<g ref="char:EOLhyphen"/>ſtrate nor the people will do their office, then the Mini<g ref="char:EOLhyphen"/>ſters, or any one Miniſter may excommunicate ſuch a King, after which the reſt of the people, who are wil<g ref="char:EOLhyphen"/>ling to do their duty, may go to any <hi>Moſes,</hi> or <hi>Othniel</hi> to be their Captain, and he ought not to refuſe them. Nay, in ſuch a caſe, a private man having an inward motion from God, may kill a Tyrant; as <hi>Moſes</hi> did the <hi>Egyptian; Phinehas, Zimri</hi> and <hi>Cozbi,</hi> and <hi>Ehud</hi> King <hi>Eglon.</hi>
+            </p>
+            <p n="23">
+               <pb n="20" facs="tcp:96572:15"/>23. That <note n="*" place="margin">Mr. <hi>Robert Blair,</hi> at the Colledge of <hi>Glaſcow.</hi>
+               </note> Monarchy is an unlawful government, and <note n="‖" place="margin">Calderwoods <hi>altare Damaſcenum. Not unlike unto which is that of D.</hi> Owens <hi>in his Faſt Sermon,</hi> April 19. 1649. <hi>p.</hi> 22. The Kings of the earth have given up their power to Antichriſt, how have they earned their Titles. <hi>Eldeſt Son of the Church, The Catholick and moſt Chriſtian King, DEFEN<g ref="char:EOLhyphen"/>DER OF THE FAITH?</hi> Do not the Kings of all theſe Nations ſtand up in the room of their <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rogenitors, with the ſame <hi>Implacable enmity to the power of the Goſpel?</hi>
+               </note> that there is naturally in all Kings an hatred to Chriſt.</p>
+            <p n="24">24. <note n="*" place="margin">Covenanters information for defenſive arms, arg. 3. and ſo ſaith <hi>Bellarm. de Laicis,</hi> ch. 7. as they are parallel'd <hi>Lyſim. Nican.</hi> p. 17.</note> That there were no Kings before <hi>Cains</hi> dayes, that the Church of God was well governed before there was any Chriſtian King, and <note n="‖" place="margin">Dr. <hi>Henry Wilkinſon</hi> of Ch. Ch. in a Sermon at <hi>Oxford</hi> a little before his Majeſties Reſtauration. See <hi>Spotſwood</hi> 423, 424.</note> that God gave the <hi>Jews</hi> their firſt King in his wrath.</p>
+            <p n="25">
+               <note place="margin">At large in Presbytery di<g ref="char:EOLhyphen"/>ſplayed. See <hi>Bramhall's</hi> fair warning to <hi>England. Spotſw. hiſt. l.</hi> 6. Sions plea. <hi>Rutherford's</hi> Preface to <hi>Lex Rex.</hi> Covenanters anſwer to the Marq. of <hi>Ham.</hi> Declaration, <hi>Lyſim. Nic.</hi> p. 18. Who compares them in this to the Papiſts, p. 32. King's larger Declaration, fol. 407. <hi>Th. Cartwright,</hi> p. 645.</note>25. That the Church in Eccleſiaſtical Aſſemblies hath power to make Laws without the King.</p>
+            <p n="26">26. That the King hath no power to call, or diſſolve thoſe Eccleſiaſtical Aſſemblies, nor to Ordain a Faſt, or Feſtival, nor to ſilence or deprive any Miniſter, becauſe every Miniſter in his Miniſterial capacity is ſubject unto none but Chriſt.</p>
+            <p n="27">
+               <note place="margin">See Spirit of Popery, p. 9.</note>27. That the Oath of Supremacy is deſtructive of Chriſts Prerogative, that it un-kings him, and makes a mortal ſinful man ſupream in his houſe; that it is blaſ<g ref="char:EOLhyphen"/>phemy, a curſed Oath, contrary to the ſecond Pſalm, and the Doxology of the Lords Prayer,<note place="margin">
+                  <hi>Lex Rex</hi> which calls <hi>Mariana</hi> the Jeſuit an approved au<g ref="char:EOLhyphen"/>thor, p. 178. <hi>Duglaſſes</hi> Co<g ref="char:EOLhyphen"/>ronation Ser<g ref="char:EOLhyphen"/>mon. See Kings large Declara<g ref="char:EOLhyphen"/>tion, p. 409.</note> and that who<g ref="char:EOLhyphen"/>ſoever takes it doth declare he hath no King but <hi>Caeſar.</hi>
+            </p>
+            <p n="28">28. That it is lawful for the people to enter into Leagues, Covenants and Aſſociations, without their Prince; and that a King cannot be a King, but by a Covenant with his people.</p>
+            <p n="29">
+               <pb n="21" facs="tcp:96572:15"/>29. That the Solemn League and Covenant was Chriſts marriage-contract;<note place="margin">Mr. <hi>Caſes</hi> book of the Covenant in <hi>Evangelium Armàtum</hi> p. 42 <hi>Zac. Croſtons</hi> anſwer to Dr. <hi>Gauden</hi> 3 edit. p. 22. See Spirit of Popery, 7. 26. 42. Mr. <hi>Caryl</hi> in Evang. arm. p. 26.</note> that to act againſt it is to do deſpite to the Holy Ghoſt; that it obliges the people of theſe Kingdoms, as much as the <hi>Moſaick</hi> covenant obliged the <hi>Jews;</hi> that all Acts of Parliament againſt it are damnable; that to break it is to revolt from God, that it obliges children in the Loins of their Parents, who ought to baptize their children into it; that <note n="*" place="margin">Poor mans Cup.</note> the laſt great Plague, and Fire of <hi>London</hi> were judgments of God for burning of it by the hand of the common hang<g ref="char:EOLhyphen"/>man, and that his Majeſty having revolted from it hath no right to rule.</p>
+            <p n="30">30. That thoſe who engaged in it were unjuſtly charged with rebellion.<note place="margin">Mr. <hi>Calamy</hi> in his Sermon be<g ref="char:EOLhyphen"/>fore the Lords; <hi>Dec.</hi> 25. 1644.</note>
+            </p>
+            <p n="31">31. That the <note n="*" place="margin">Mr. <hi>Calamy</hi> ib: Mr. <hi>Jenkins</hi> in his humble Petition, print<g ref="char:EOLhyphen"/>ed <hi>Octob.</hi> 15. 1651. Politi<g ref="char:EOLhyphen"/>cal Catechiſm, p. 7. 1679. See Mr. <hi>Baxter</hi> in Evang. arm. p. 16, 17, 18, 19. and Mr. <hi>Herle,</hi> p. 28.</note> Parliament without the King was the Supream power of this Nation, and <note n="‖" place="margin">Mr. <hi>Marſhall,</hi> Evang. arm. p. 7.</note> that as <hi>Joſiah</hi> put thoſe to death, who followed <hi>Baal:</hi> ſo might they thoſe, who will not return to the Lord, and leave their Anti-chriſtianiſm, which was ſworn in the Cove<g ref="char:EOLhyphen"/>nant to be rooted out.</p>
+            <p n="32">32. That when Providence depriveth a King of his underſtanding, or ſuffers him to turn wicked,<note place="margin">Mr. <hi>Baxter</hi> in his H. C. W. where there are many more ſuch Jeſuitical The<g ref="char:EOLhyphen"/>ſes. See alſo the 2d part of the unreaſonable<g ref="char:EOLhyphen"/>neſs of Separation, which ſhews him to have been a man of Rebellion and blood.</note> or diſ<g ref="char:EOLhyphen"/>ables him from executing the Law, and protecting his Subjects, that it renders him uncapable, and ſo depoſeth him.</p>
+            <p n="33">33. That it was lawful to take up defenſive arms,<note place="margin">Stephen Mar<g ref="char:EOLhyphen"/>ſhall, <hi>Evang. arm. p.</hi> 21.</note> after the example of <hi>David,</hi> who had ſworn Allegiance unto <hi>Saul.</hi>
+            </p>
+            <p n="34">34. That thoſe who fought in the late Rebellion,<note place="margin">
+                  <hi>M.</hi> Marſhall.</note>
+               <pb n="22" facs="tcp:96572:16"/> fought the Lords Battels,<note place="margin">M. <hi>Calamy,</hi> Evan. arm. 22, 23, 24. Mr. <hi>Love</hi> to the Commons. <hi>Nov.</hi> 25. 1646. in Dedic. to Lord <hi>Fairfax:</hi> and at <hi>Uxbridge, Jan.</hi> 30. 1644. p. 7. <hi>Tisdal</hi> to the Commons, p. 14. <hi>Leech</hi> his Sermon, 1644. <hi>Caſe</hi> to the Commons, 1644. p. 13.</note> and that the war was the cauſe of God.</p>
+            <p n="35">
+               <note place="margin">
+                  <hi>Buch.</hi> de jure. Mr. <hi>Caſe</hi> in Evang. arm. p. 25. Covenanters inform. for defenſ. arms. So <hi>Bellarmin</hi> de Concil. l. 2. c. 19. de Cler. l. 3. c. 6.</note>35. That all people, the <hi>Engliſh</hi> in particular, have a right to chooſe their own Government.</p>
+            <p n="36">
+               <note place="margin">M. <hi>Caſe,</hi> Ev. arm. 25. 35. M <hi>Strickland,</hi> Ev. arm. 29.</note>36. That the Loyal Subjects, who adhered to his Majeſty were <hi>Babylonians, Midianites,</hi> and Idolaters.</p>
+            <p n="37">37. That Idolaters, and Idolatrous Prieſts ought to be puniſhed with death.<note place="margin">
+                  <hi>Caſes</hi> Sermon, to the Court-Marſhall, <hi>Aug.</hi> 17. 1643. <hi>Marſhall's</hi> Sermon, <hi>March</hi> 26. 1645. <hi>Herle</hi> to the Lord Mayor, 1644. p. 22. <hi>Marſhall</hi> to the Commons, <hi>Decemb.</hi> 22. 1645. p. 52, 53. and to the Commons, <hi>Feb.</hi> 23. 1641. p. 9. <hi>Love</hi> at <hi>Uxbridge, Jan.</hi> 30. 1644. p. 7. <hi>Spotſwood</hi> hiſt. l. 3. <hi>Coleman</hi> in <hi>Foulis</hi> hiſt. of wicked plots, p. 183, 184.</note>
+            </p>
+            <p n="38">38. That <note n="*" place="margin">Mr. <hi>Sedge<g ref="char:EOLhyphen"/>wick</hi> and Mr. <hi>Strick<g ref="char:EOLhyphen"/>land,</hi> Ev. arm. p. 29. M. <hi>Fair<g ref="char:EOLhyphen"/>cloth,</hi> ib. 32. Mr. <hi>Bridges,</hi> ib. 33. Dr. <hi>Homes,</hi> ib. 34.</note> the Church of <hi>England</hi> was Idola<g ref="char:EOLhyphen"/>trous, full of Idols, Babyloniſh garments, and Popiſh trumpery, and <note n="‖" place="margin">Mr. <hi>Jenkins</hi> before the Parl. <hi>Sept.</hi> 24. 1656. p. 23. Becauſe he makes ſo light of the blood and treaſure which was ſhed and ſpilt in the late Rebellion; I deſire the Reader, probably to compute, how many thouſand men loſt their lives on both ſides in it: and as for the Treaſure, as Mr. <hi>Heath</hi> be<g ref="char:EOLhyphen"/>fore his Chronicle obſerves, it exceeds all Arithmetick and belief. For beſides the Cuſtomes, Kings Revenues, Sequeſtred Eccleſiaſtical profits, Sales of the Lands of the King, Queen, and Prince, Biſhops, Deans and Chapters; Decimations; <hi>100000</hi> and <hi>120000 l.</hi> per menſ. it amounted in <hi>5</hi> years time, as he computes, to near <hi>20000000 l.</hi> Much ſuch another unchriſtian ſaying was that of Mr. <hi>Marſhal's</hi> to both Houſes, <hi>Jan.</hi> 18. 1643. ib. I confidently affirm, that our days are now better, than they were 7 years ago; becauſe it is better to ſee the Lord <hi>(mark the phraſe)</hi> ex<g ref="char:EOLhyphen"/>ecute judgment, than to ſee men working wickedneſs; and to behold a people lye wallowing in their blood, than Apoſtatizing from God, and embracing Idolatry, and Superſtition, and baniſhing the Lord Jeſus from among them. See alſo p. 22.</note> that the removal of them counter<g ref="char:EOLhyphen"/>vailed for all the blood, and treaſure, which was ſhed, and ſpilt in theſe Kingdoms, not excepting the blood of This day.</p>
+            <p n="39">
+               <note place="margin">
+                  <hi>Scripture and reaſon pub<g ref="char:EOLhyphen"/>liſhed</hi> by divers anti-epiſcopal Divines, and ordered to be Printed by the Committee of the Houſe, <hi>April</hi> 14. 1643. Evan. Arm. p. 36.</note>39. That it was as blameleſs to kill the Kings Perſon
+<pb n="23" facs="tcp:96572:16"/> in a battel, as for a Conſtable, or Watch-man to knock him down if he committed violence in a diſguiſe.</p>
+            <p n="40">40. That he had a ſolemn and fair Tryal,<note place="margin">
+                  <hi>Milton</hi> in A<g ref="char:EOLhyphen"/>pol. Preface to his Iconoclaſtes, the Pourtrai<g ref="char:EOLhyphen"/>ture of the Kings of <hi>Eng<g ref="char:EOLhyphen"/>land,</hi> 1650. p. 15. Armies Remonſtrance, <hi>Nov.</hi> 16. 1648. <hi>Brookes</hi> before the Commons, <hi>Dec.</hi> 26. 1648. p. 17, 19. <hi>Cockain</hi> to the Commons, <hi>Nov.</hi> 29. 1648. Dr. <hi>Owen</hi> a Faſt Sermon, <hi>Jan.</hi> 31. 1648. p. 5. 15. A Thanks<g ref="char:EOLhyphen"/>giving Sermon for the defeat at <hi>Worceſter, Oct. 24. 1651.</hi> p. <hi>2. 6. Jo. Goodwins</hi> Defence of the ſentence paſſed on the King. Mr. <hi>Herle's</hi> Preface before his Sermon on <hi>2 Sam.</hi> 22.16, 17. Preached to the Commons, <hi>Nov.</hi> 5. 1644. Do juſtice to the greateſt. <hi>Sauls</hi> ſons are not ſpared, no nor may <hi>Agag</hi> or <hi>Benhadad,</hi> though themſelves Kings. <hi>Zimri</hi> and <hi>Cozbi</hi> though Princes of the people, muſt be purſued into their Tents: This is the way to conſecrate your ſelves to God.</note> becoming the Majeſty of the people of <hi>England,</hi> and was juſtly put to death.</p>
+            <p>
+               <note n="*" place="margin">Mr. <hi>Baxter.</hi> Evan. arm. 17, 18. 39, 40, 41. <hi>Slaters</hi> Protection Protected, 1658. Mr. <hi>Jen<g ref="char:EOLhyphen"/>kins</hi> in his Petition, 1651. Gods Providence, <hi>i. e.</hi> his permiſſion of Events, and Succeſs, are an<g ref="char:EOLhyphen"/>tecedent delarations of Gods Will and approbation. A refuſal to be ſubject to this authority [the Par<g ref="char:EOLhyphen"/>liament of the Commonwealth of <hi>England</hi>] is a refuſal to acquieſce in the wiſe and righteous plea<g ref="char:EOLhyphen"/>ſure of God, ſuch an oppoſing of the Government ſet up by the Soveraign Lord of Heaven and Earth, as none can have peace neither in acting nor ſuffering for.</note> Laſtly, that the Uſurping powers after him, were lawful powers ordained of God.</p>
+            <p>Theſe, with many other ſuch Popiſh and damnable Poſitions, may be found in theſe words, or others of the ſame importance, in the writings and accounts of the moſt celebrated Authors, and Ringleaders of the Anti-epiſcopal parties in both Kingdoms; and I for<g ref="char:EOLhyphen"/>bear to name them, both to avoid the loſs of time, which ſuch a long Catalogue would take up, and the envy which would fall upon me for naming of ſome of all profeſſions, who yet live, or whoſe memory is yet freſh among us.</p>
+            <p>And as the Authors of this new Divinity have taught: ſo they and their diſciples have acted in con<g ref="char:EOLhyphen"/>tradiction to the Goſpel, and the Primitive profeſſors of it, and in oppoſition to <hi>Caeſar</hi> and his Laws. It would make a large Hiſtory to relate all their ſlanderous un<g ref="char:EOLhyphen"/>dutiful
+<pb n="24" facs="tcp:96572:17"/> Speeches, Petitions, and Remonſtrances; all their Seditious Declarations, and meetings; all their Riots, Tumults, Inſurrections and Rebellions; and all their Treaſons, Murders and Aſſaſſinations, in theſe two Kingdoms, from the time of Queen <hi>Elizabeth,</hi> and King <hi>James</hi> his Mother unto this preſent day.</p>
+            <p>As for the Kings Mother they compared her to <note n="‖" place="margin">Herod <hi>and</hi> Pi<g ref="char:EOLhyphen"/>late <hi>p.</hi> 48</note> 
+               <hi>Je<g ref="char:EOLhyphen"/>ſabel,</hi> and <hi>Athaliah,</hi> and <note n="*" place="margin">
+                  <hi>Cambdens Eliz.</hi> p <hi>95.</hi> 3d Edit. in Engliſh</note> preached, that it was lawful to put her to death. <note n="*" place="margin">
+                  <hi>Spotſw</hi> hiſt, p. 123, 124. &amp; <hi>Foulis</hi> hiſt. b. 1. ch. 8.</note> They killed great numbers of the Popiſh Clergy, and pulled down Monaſteries, and Ca<g ref="char:EOLhyphen"/>thedral-Churches by Virtue of Gods Laws againſt Ido<g ref="char:EOLhyphen"/>latry, without ſtaying for Reformation by Law. To be ſhort, as King <hi>James</hi> complained at <hi>Hampton-Court,</hi> they renounced her Authority, put her up in ſeveral Priſons, fought her from field to field, beat her out of her own Kingdom, took all into their own hands, and forced her for his ſake, who was in their cuſtody, to re<g ref="char:EOLhyphen"/>ſign her Title to the Crown.</p>
+            <p>As for him, he declares, in his Preface, to all Chri<g ref="char:EOLhyphen"/>ſtian Monarchs, Princes, and States: that they Per<g ref="char:EOLhyphen"/>ſecuted him not from his Birth only, but from Four months before he was born. With what inhumanity, and irreverence did they treat him in his Minority, forcing Oaths upon him againſt his Conſcience, and keeping his perſon under reſtraint! <note n="*" place="margin">
+                  <hi>Spotſw.</hi> hiſt. l. 6. <hi>Foulis</hi> b. 1. ch. 8.</note> After he got his liberty, their Preachers called him <hi>Jeroboam,</hi> denoun<g ref="char:EOLhyphen"/>ced the judgments of God againſt him, ſaid he was poſſeſſed with a Devil; and affirmed that his Subjects might lawfully riſe, and take the Sword out of his hand. Accordingly they did ſo in <hi>Edinburgh,</hi> crying out at the time of the Inſurrection, <hi>the Sword of the Lord, and of Gideon.</hi> And to the laſt moment he lived among them, he had as great conteſts againſt their <note n="‖" place="margin">See the ſtory of <hi>Blake</hi> in <hi>Spotſw.</hi> and <hi>Foulis</hi> ib. l. 6. Presbytery diſplayed.</note> Ec<g ref="char:EOLhyphen"/>cleſiaſtical Soveraignty, as ever any King had againſt the Pope.</p>
+            <pb n="25" facs="tcp:96572:17"/>
+            <p>As for what they taught, and practiſed in Queen <hi>Elizabeths</hi> days, may be ſeen in the Schiſmatical <note n="*" place="margin">Such as <hi>Mar<g ref="char:EOLhyphen"/>tin Mar-Pre<g ref="char:EOLhyphen"/>late, H' y' any work, Diotre<g ref="char:EOLhyphen"/>phes</hi> demonſtra<g ref="char:EOLhyphen"/>tion of diſci<g ref="char:EOLhyphen"/>pline, and ma<g ref="char:EOLhyphen"/>ny more made and disperſed by <hi>Udal, Bar<g ref="char:EOLhyphen"/>row, Green<g ref="char:EOLhyphen"/>wood, Studly, Bowler, Copping, Thacket, Penry,</hi> and others. As may be ſeen in <hi>Bancr.</hi> dang. poſ.</note> books of that time; as alſo from the accounts we have in Hiſtory, of the <note n="‖" place="margin">Dang. poſ. b. 4.</note> bloody Principles, and Practices of <hi>Coppinger, Hacket,</hi> and their Aſſociates; who were all the Diſciples, or Companions of <hi>Cartwright,</hi> and <hi>Trevers,</hi> and condemned for High Treaſon, though moſt of them upon the interceſſion of the Arch-biſhop were graciouſly reprieved by the Queen.</p>
+            <p>As ſoon as King <hi>James</hi> came to the Crown of <hi>Eng<g ref="char:EOLhyphen"/>land,</hi> they began to make loud and grievous complaints againſt the Church of <hi>England,</hi> in behalf of the Diſci<g ref="char:EOLhyphen"/>pline, which to ſatisfie their clamours made him give them a Conference at <hi>Hampton-Court:</hi> Where his Majeſty having conſidered the vanity of their Objecti<g ref="char:EOLhyphen"/>ons, put out a Proclamation for Uniformity; which making them deſpair of any hopes from him, they en<g ref="char:EOLhyphen"/>tred into a ſtricter correſpondence with their brethren in <hi>Scotland,</hi>
+               <note place="margin">
+                  <hi>In the firſt Parl. of this King, one of the Mem<g ref="char:EOLhyphen"/>bers bid the Houſe take heed</hi> leſt if they gave too much to the King, they ſhould endan<g ref="char:EOLhyphen"/>ger their own throatscuttting as they went home. <hi>Another ſaid.</hi> It would never be well with <hi>England</hi> till a <hi>Sicilian</hi> Veſper was made of the <hi>Scottiſh</hi> Nation, <hi>as if he had not known what Country men the King, and Princes were.</hi>
+               </note> and in <hi>England</hi> privately magnified the power of Parliaments againſt the Prerogative; and by thoſe arts ſo enflamed the people, that the Nation pre<g ref="char:EOLhyphen"/>ſently began to ring with clamours of grievances, dan<g ref="char:EOLhyphen"/>ger of Arbitrary power, freedom of Speech, birthright of the People, and ſuch like things, as <hi>Engliſh</hi> ears had rarely or never heard mentioned in ſuch a mutinous manner before. Nay, they uſed all imaginable arts to render the King and Clergy odious to the people, and ſo Faction, and Sedition encreaſed more and more among them, till his Son, our late Bleſſed Soveraign, who was Murdered This day, ſucceeded to the Crown.</p>
+            <p>I ſhall not, becauſe I need not relate how this Excel<g ref="char:EOLhyphen"/>lent
+<pb n="26" facs="tcp:96572:18"/> Prince was abuſed, and tormented by them both in, and out of Parliaments. I ſhall not repeat their undutiful Speeches, and Slanderous reflections on His Sacred perſon, nor trouble my ſelf and you with re<g ref="char:EOLhyphen"/>citing thoſe Lies and Defamations by which they re<g ref="char:EOLhyphen"/>preſented him to his people for a Papiſt, a Tyrant, and a Fool.</p>
+            <p>I ſhall not, I cannot with patience rehearſe the ſeve<g ref="char:EOLhyphen"/>ral Acts, and Scenes of this Execrable Tragedy, from the beginning of the Rebellion to the Vote of <hi>Non-Addreſſes,</hi> which Murdered the King; and from thence to the <hi>High-Court of Juſtice,</hi> which Arraigned, and Condemned the Man.</p>
+            <p>It pains and torments me to remember the Speeches that were made, the Votes that paſſed, the Sermons that were preached, and the Books that were Printed to delude his poor Subjects; whom in his greateſt mi<g ref="char:EOLhyphen"/>ſeries he pitied more, than he did his own ſelf. I can<g ref="char:EOLhyphen"/>not think upon our <hi>Naſeby's,</hi> and all other Britiſh fields of blood without horrour, and indignation; eſpecially when I conſider all the Mock-Treaties they made with him, and that they, as he called God to witneſs in his Speech upon the Scaffold, firſt began the War.</p>
+            <p>Much leſs am I able to inſiſt upon the Nature, Man<g ref="char:EOLhyphen"/>ner, or Style of his Arraignment; or tell you the Bar<g ref="char:EOLhyphen"/>barous and Inhumane manner, in which they abuſed His Sacred, and Innocent perſon; when the very ab<g ref="char:EOLhyphen"/>jects of the people gathered themſelves together againſt him, making mows and ceaſed not. I leave you to re<g ref="char:EOLhyphen"/>collect all this, and reflect on the horrour of this exe<g ref="char:EOLhyphen"/>crable Tragedy; eſpecially upon this laſt Act, of which I ſhall only ſay, as the <hi>Iſraelites</hi> ſaid upon another oc<g ref="char:EOLhyphen"/>caſion: <hi>There was no ſuch deed done, nor ſeen from the day that the children of</hi> Iſrael <hi>came up out of the land of</hi> Egypt <hi>until this day. Conſider of it, take advice, and freely ſpeak your minds.</hi>
+            </p>
+            <pb n="27" facs="tcp:96572:18"/>
+            <p>Having now ſhew'd, Firſt, That it was an old charge againſt the Primitive Chriſtians, that they were enemies to <hi>Caeſar,</hi> and did all things contrary to his Decrees;</p>
+            <p>Secondly, That this charge was moſt malicious, and unjuſt;</p>
+            <p>And having in the Third place found upon enquiry, if any modern Chriſtians were guilty of that charge that the Anti-epiſcopal people of theſe Kingdoms have been highly guilty of it, according as the Apoſtle fore<g ref="char:EOLhyphen"/>told: I now proceed to make ſome ſhort practical re<g ref="char:EOLhyphen"/>flections proper to the times, and the buſineſs of this day.</p>
+            <p>Firſt then, let us ſeriouſly reflect on the great diffe<g ref="char:EOLhyphen"/>rence betwixt the Principles and Practices of Chriſt and the Primitive Chriſtians; and the Principles and Practices of our New-Reformers, and then conſider what Spirit they have been of. Not of the Spirit of Chriſt, who hath commanded us to lay down our lives without reſiſtance for his ſake, and the Goſpels; who blamed <hi>Peter</hi> for drawing his Sword; and who not on<g ref="char:EOLhyphen"/>ly lived but dyed an Obedient Subject to <hi>Caeſar,</hi> ſub<g ref="char:EOLhyphen"/>mitting himſelf unto his Governours, when he had more Legions of Angels at his, than <hi>Caeſar</hi> had Legions of men at his command.</p>
+            <p>Nor of the Spirit of the Apoſtles, who taught the ſame Doctrine of Patience, and Paſſive Obedience to Legal Authority, following the example of their Ma<g ref="char:EOLhyphen"/>ſters, and commanding all Chriſtians to be ſubject to Lawful Magiſtrates, not only for Wrath but for Con<g ref="char:EOLhyphen"/>ſcience-ſake.</p>
+            <p>Nor of the Spirit of the Primitive Chriſtians, who inviolably taught, and practiſed the ſame Doctrine under Ten famous Perſecutions within the firſt 300 years. They were mocked, ſcourged, impriſoned, ſtoned, ſawn aſunder, empaled, crucified, and ſlain with the Sword: or if they took the <note n="*" place="margin">
+                  <hi>Matth.</hi> 10.23</note> allowed benefit
+<pb n="28" facs="tcp:96572:19"/> of flight, they wandered about in Sheep-skins, and Goat-skins, in Deſarts, and Mountains, and Dens and Caves of the earth, and all this not only when they wanted power, but when they were become the great<g ref="char:EOLhyphen"/>er part of the Empire, and a great part of the Imperial Army, and when the Powers that were, did not ſub<g ref="char:EOLhyphen"/>mit their Scepters to Chriſt's Scepter, but endeavour<g ref="char:EOLhyphen"/>ed to root his Religion, and the Profeſſors of it out of the world.</p>
+            <p>Of what Spirit then have they been? even of a Po<g ref="char:EOLhyphen"/>piſh Jeſuitical ſort of ſpirit, and of Popiſh Jeſuitical Principles; for all the Poſitions, which I have laid down out of their Writings, may be found in the Writings of the <note n="*" place="margin">See them paralleled with the Jeſuits in <hi>Herod</hi> and <hi>Pilate,</hi> p. 54. in <hi>Lyſim. Nican.</hi> in Sir <hi>Will Dugdales</hi> ſhort view, 16, 17. in L. Keeper <hi>Puckerings</hi> Speech to the Parliament, 1585. 27th of Queen <hi>Eliz.</hi> ib. 13. Dr. <hi>Nalſons</hi> Introduct. p. 5.</note> Je<g ref="char:EOLhyphen"/>ſuits, and to the great ſcandal of the Proteſtant name they have perver<g ref="char:EOLhyphen"/>ted the Goſpel-Doctrines of Pa<g ref="char:EOLhyphen"/>tience and Obedience by them, as much as the Jeſuits have done. They have taught and learned all their damnable Do<g ref="char:EOLhyphen"/>ctrines of Diſobedience, and reſiſtance, not only againſt Princes in general, but againſt their own So<g ref="char:EOLhyphen"/>veraign; and as to this part of Popery, I ſay, as to this part of Popery, they that hold theſe Principles, are as rank Papiſts againſt the Government, though many of them are ignorant of it, as any were in This or the Powder-plot.</p>
+            <p>Nay the moſt peſtilent, and dangerous piece, that ever was written againſt this Government, <hi>Dolemans,</hi> or <hi>Parſons Title to the Crown,</hi> they have dreſſed up in ſeveral diſguiſes, not only in<note n="*" place="margin">In a Collection of Speeches ſaid to be deli<g ref="char:EOLhyphen"/>vered at a Conference concerning the Power of Parliaments to proceed againſt their King for miſ-government: with ſeveral other Declarations and Speeches, particularly, <hi>Bradſhaws</hi> long ſpeech at the Condemnation of the King, a Treatiſe of the broken Succeſſion of the Crown of <hi>Eng<g ref="char:EOLhyphen"/>land,</hi> 1655. to make way for the <g ref="char:V">Ʋ</g>ſurper.</note> the time of the late Re<g ref="char:EOLhyphen"/>bellion, but ſince the <note n="‖" place="margin">A brief hiſtory of the Succeſſion.</note> late liberty of the Preſs.</p>
+            <pb n="29" facs="tcp:96572:19"/>
+            <p>And from the men of theſe Principles it is, that we have had within theſe Three laſt years ſo many Impi<g ref="char:EOLhyphen"/>ous and Treaſonable books Printed, to <note n="*" place="margin">The appeal from the City to the Country, which alſo ſaith <hi>the worſe Ti<g ref="char:EOLhyphen"/>tle the better King.</hi>
+               </note> declame againſt the Doctrine of Paſſive Obedience; <note n="‖" place="margin">A brief hiſto<g ref="char:EOLhyphen"/>ry of the Suc<g ref="char:EOLhyphen"/>ceſſion.</note> to prove this not to be an Hereditary, but rather an Elective Monarchy, and that the King is the <note n="*" place="margin">Implyed in the Stile of moſt of the Seditious Pamphlets.</note> Truſtee of the people; <note n="‖" place="margin">A Letter of a gentleman to his friend, ſhew<g ref="char:EOLhyphen"/>ing that the Bi<g ref="char:EOLhyphen"/>ſhops are not to be Judges, <hi>&amp;c.</hi>
+               </note> that he is one of the Three Eſtates; <note n="*" place="margin">
+                  <hi>Plato Redi<g ref="char:EOLhyphen"/>vivus,</hi> firſt Ed. p. 121. 237, 238, 239. 124. with many other ſeditious doctrines.</note> That his Office in the interval of Parliaments, is wholly Miniſterial to put the Laws in execution; that his Prerogative in all the branches of it is rather the ruin than the ſupport of the Government; that Acts of Parliament were at firſt brought unto his Majeſty, as the Speaker, and Lord Mayor are now preſented to him, merely out of re<g ref="char:EOLhyphen"/>ſpect and honour; <note n="‖" place="margin">Dialogue between Tutor and Pupil.</note> and that Parliaments ſhould ſit till all Grievances are redreſſed, and Petitions anſwer<g ref="char:EOLhyphen"/>ed, that is, as long as they pleaſe.</p>
+            <p>And in all the Books ſpecial care is taken to blacken and expoſe the Univerſities and the Clergy, and make them odious and contemptible to the people, becauſe they cannot perſwade us to go beyond the Word of the Lord, but that we ſtill teach, and preach up the Do<g ref="char:EOLhyphen"/>ctrine of<note n="*" place="margin">Which was called, <hi>the new</hi> Oxford <hi>Divi<g ref="char:EOLhyphen"/>nity,</hi> by <hi>G. Gil<g ref="char:EOLhyphen"/>leſpy,</hi> in the Preface to his Sermon, preach<g ref="char:EOLhyphen"/>ed to the Com<g ref="char:EOLhyphen"/>mons on Ezek. <hi>43.11.</hi>
+               </note> Paſſive Obedience to the Lawful Powers, for Evangelical, and maintain, according to the<note n="‖" place="margin">Sciant quis illis dederit imperium, ſciant qua homines, quis &amp; animam. Sentiant eum eſſe Deum ſolum à quo ſunt ſecundi, poſt quem primi — ideò magnus eſt [Imperator] quia coelo minor. Illius enim eſt ipſe cujus &amp; coelum eſt &amp; omnis creatura: inde eſt Imperator unde &amp; ho<g ref="char:EOLhyphen"/>mo, antequam Imperator, inde poteſtas illi unde &amp; ſpiritus. In Apoleg. Colimus ergo impera<g ref="char:EOLhyphen"/>torem— ut hominem à Deo ſecundum, &amp; quicquid eſt à Deo conſecutum &amp; ſolo Deo minorem— Sic etiam omnibus major eſt, dum ſolo vero Deo minor eſt. Ad Scapulam. <hi>Pſal.</hi> 82.6. <hi>Exod.</hi> 22.28. Bract. <hi>ſaith of the King,</hi> Omnis ſub eo eſt, &amp; ipſe ſub nullo, niſi tantùm ſub Deo. <hi>See the Statute of</hi> Praemunire, 16 Rich. 2. <hi>cap.</hi> 5.</note> Apo<g ref="char:EOLhyphen"/>ſtle, and the whole ſtrain of Primitive Chriſtian Wri<g ref="char:EOLhyphen"/>ters, that Kings are Gods Vice-gerents upon earth, and that the Supream, eſpecially the Royal power, is the Ordinance of God.</p>
+            <pb n="30" facs="tcp:96572:20"/>
+            <p>But Secondly, if theſe principles be ſo contrary to the Doctrines of Chriſt, and Primitive Chriſtianity, then we may learn how much it is our duty to abhor them, and beware of them that hold and teach them, how much ſoever they may talk of the purity of the Goſpel, and how zealous ſoever for the Proteſtant Religion they may ſeem to be.</p>
+            <p>For the Proteſtant Religion is but another name for Primitive Chriſtianity, and a Proteſtant for a Primi<g ref="char:EOLhyphen"/>tive Chriſtian, who proteſts againſt all the corruptions of the Goſpel by Popery: and Popery having appa<g ref="char:EOLhyphen"/>rently corrupted the Goſpel in the Doctrines of Obe<g ref="char:EOLhyphen"/>dience, and Submiſſion, and the Divine Authority of the Supream power, eſpecially of Kings; they cannot be ſound and Orthodox Proteſtants, who hold the very ſame deſtructive principles to Regal Government, by which the Papiſts have corrupted the Goſpel in thoſe points.</p>
+            <p>No they are not ſound, and Orthodox Proteſtants, but Proteſtants popiſhly affected, Papiſts under a Pro<g ref="char:EOLhyphen"/>teſtant dreſs, Wolves in Sheeps cloathing; Rebellious and Satanical ſpirits transformed into Angels of Light. They were ſuch Proteſtants, or Proteſtant Jeſuites as theſe, that formerly ſet up Jeſus among us againſt <hi>Cae<g ref="char:EOLhyphen"/>ſar,</hi> Chriſt againſt his own Goſpel, the Apoſtles againſt their own Doctrine and practice, and by corrupting and perverting the Goſpel of peace, brought the people of this Nation to turn their <note n="*" place="margin">This the ſword not diſputes nor Treaties, that muſt end this controverſie, wherefore turn your Plow ſhares into Swords, and your Pruning-books into Spears, to fight the Lords battels. <hi>Love</hi> at <hi>Uxbridge, Jan. 30. 1644.</hi> p. <hi>7.</hi> Contrary to the Spirit of the Primitive Chriſtians, who, as <hi>Juſtin</hi> ſaith of them in his Dial. turned their Swords and Spears into Plow-ſhares. You cannot lay out your blood in ſuch a quarrel [the late Rebellion.] Chriſt ſhed all his blood to ſave you from hell, venture all yours to ſet him up upon his Throne. <hi>Marſhall's</hi> Paneg. <hi>1643.</hi> See many more ſuch, <hi>Diſſent. Sayings,</hi> 1 and 2 part, 12 Sect.</note> Plow-ſhares into Swords; and riſe up againſt the beſt of Princes, in the moſt cauſeleſs, and unnatural rebellion that ever was in the world.</p>
+            <pb n="31" facs="tcp:96572:20"/>
+            <p>They were ſuch Proteſtants as theſe, that have made ſo many Proteſtant Plots, raiſed ſo many Proteſtant tumults and rebellions, and committed ſo many Prote<g ref="char:EOLhyphen"/>ſtant murders and aſſaſſinations in theſe Kingdoms; and perhaps ſhed more Proteſtant blood in them, than was ſhed in the firſt Ten famous Perſecutions; and in one word, ſuch Proteſtants, and zealous Proteſtants they were, who ſhed the direful blood of this day.</p>
+            <p>You may know them by their works; and by their words, and phraſes too. For their Throat is as an open Sepulchre, with their tongues they uſe de<g ref="char:EOLhyphen"/>ceit, the poyſon of Aſps is under their lips. Their mouth is full of curſing, or fraudulent imprecations and bitterneſs, deſtruction and miſery are in their wayes, and the wayes of peace they have not known.</p>
+            <p>As there was never ſo much need to warn the people againſt the Papiſts; ſo there was never greater need to warn them againſt theſe Popiſh Proteſtants, who have brought an indelible ſcandal upon the Proteſtant Reli<g ref="char:EOLhyphen"/>gion by this great abomination, and thereby made this Proteſtant Land an hiſſing, and the Proteſtants of it to be a reproach, and a proverb, and a taunt, and a curſe in all places, and yet we ſee they are ſo far from undoing what they formerly did, and abhorring them<g ref="char:EOLhyphen"/>ſelves for their former practices; that if you compare the former, and theſe later things, which have hapned together, you will find them ſpeaking to the people in the very ſame Prologue, and already entred upon the ſame prelude that preceeded the beginning of that Execrable Tragedy which they concluded this day. Search in the books of the Records of your fathers, and you ſhall find and know, that the men of theſe un<g ref="char:EOLhyphen"/>chriſtian principles have been a rebellious people, hurt<g ref="char:EOLhyphen"/>ful to Kings and Princes, and that they have of old time moved Sedition within this City and Kingdom, and turned the world upſide down.</p>
+            <pb n="32" facs="tcp:96572:21"/>
+            <p>And ſince the ſame principles will upon the ſame occaſion, eternally act the ſame things; it behoves us as we are Chriſtians, and Subjects to beware of them, and as we tender our private and publick welfare, to be very vigilant over them, leſt by their hands we be brought again to confuſion, Anarchy, and blood.</p>
+            <p>But in the laſt place, if theſe principles, and the practices of the <hi>Phariſees</hi> that held them, have been ſo contrary to the principles and practices of Chriſt, and the primitive Chriſtians, we may ſee how much it is our duty to mourn, and lament for ſuch apparent and grievous violations of the Goſpel by Goſpel-profeſſors, but eſpecially for the laſt Scene of that horrid Trage<g ref="char:EOLhyphen"/>dy of rebellion which they acted this day. That ſuch a wickedneſs ſhould be committed in our <hi>Iſrael,</hi> in a Proteſtant Country, upon a Proteſtant King, and by Proteſtant Subjects pretending to ſo much light, ought to make us aſhamed and bluſh to lift up our eyes to Heaven, and weep, were it poſſible, tears of blood.</p>
+            <p>Was it thus, that we rendred unto <hi>Caeſar</hi> the things that are <hi>Caeſars?</hi> Was it thus, that we owned him to be Gods Miniſter, and our duty to obey him, not only for wrath, but Conſcience-ſake? Was this the way to be ſubject to principalities and powers, and did we thus ſubmit our ſelves for the Lords ſake, to the King as Supream, and unto thoſe that were ſent by him? Was it thus that we reſiſted unto blood? Did we thus learn of Chriſt? and was it thus that we con<g ref="char:EOLhyphen"/>tended for the purity of the Goſpel? We, I ſay, be<g ref="char:EOLhyphen"/>cauſe ſo many of all ranks and conditions were engaged in that unchriſtian Rebellion, which brought on this deteſtable act, as to make them <hi>both</hi> national crimes. All that any way ſlandered the King, and his Govern<g ref="char:EOLhyphen"/>ment; all that endeavoured to make him odious or con<g ref="char:EOLhyphen"/>temptible to his people; all that preached or printed, or ſpoke Sedition; all that raiſed uproars and tumults;
+<pb n="33" facs="tcp:96572:21"/> all that furniſhed plate or money, or ſet forth men, horſe, or arms againſt him: Nay all that had evil will unto him, how much ſoever they pretended to the Spirit, were more or leſs in Gods eyes guilty of the Rebellion, which was begun by the Repreſentatives of the people, and all along carried on in their name.</p>
+            <p>Great reaſon therefore have we, and the children that ſhall come after us, the men of <hi>Judah,</hi> and the Inha<g ref="char:EOLhyphen"/>bitants of <hi>Jeruſalem,</hi> all <hi>Iſrael</hi> that are near, and that are far off, to be humbled before God for this abomina<g ref="char:EOLhyphen"/>tion, and for our own ſins, and the ſins of our fathers, which hath cauſed him to pour forth the curſe, and bring ſo great an evil upon us, as on this day.</p>
+            <p>It was for our iniquities, that We, our King, and our Prieſts were delivered to the Sword, to Captivity, and to a ſpoil, and to confuſion of face on this day.</p>
+            <p>May it pleaſe God to hear the prayers, and accept the humiliation of his people, and divert his heavy judgments which ſeem to hang over us for ſuch an exe<g ref="char:EOLhyphen"/>crable fact. May it pleaſe him by the precious blood of Chriſt, which ſpeaketh better things, than that of <hi>Abel,</hi> to purge the whole Nation from the guilt of all the righteous blood which was ſhed in it, from that Noble blood of which our Soveraign did repent, to his own, which was ſhed upon this day. Oh that it may neither ly upon us, nor upon our children! oh that the voice of it may not cry unto God for venge<g ref="char:EOLhyphen"/>ance from the ground! and oh that his Soul like the Souls of the Martyrs under the Altar, be not yet cry<g ref="char:EOLhyphen"/>ing out, how long O Lord holy and true, doſt Thou not judge and avenge my blood?</p>
+            <p>Grant this, O Bleſſed Jeſu! for the infinite merits of thy own blood, which was ſhed for thoſe that ſhed it, and which is a full, perfect, and ſufficient atone<g ref="char:EOLhyphen"/>ment for the ſins of the whole world. <hi>Amen.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="publishers_advertisement">
+            <pb facs="tcp:96572:22"/>
+            <head>BOOKS Printed for <hi>Walter Kettilby</hi> at the <hi>Biſhop's-head</hi> in St. <hi>Paul's</hi> Church-Yard.</head>
+            <list>
+               <item>THE Spirit of Popery ſpeaking out of the mouths of Phanatical Proteſtants, or the laſt Speeches of <hi>John Kid</hi> and <hi>John King,</hi> two Presbyterian Miniſters. <hi>Fol.</hi>
+               </item>
+               <item>Dr. <hi>Hick's</hi> Spirit of Enthuſiaſm, a Sermon preached at the Act at <hi>Oxford.</hi>
+               </item>
+               <item>
+                  <hi>Peculium Dei,</hi> A Sermon before the Lord Mayor.</item>
+               <item>True Notion of Perſecution, a Sermon.</item>
+               <item>Mr. <hi>Long</hi>'s Hiſtory of the <hi>Donatiſts. Octav.</hi>
+               </item>
+               <item>'s Character of a Separatiſt. <hi>Octav.</hi>
+               </item>
+               <item>'s Anſwer to <hi>Hales</hi> of Schiſm, with Mr. <hi>Baxter's.</hi>
+               </item>
+               <item>Arguments for Conformity. <hi>Octav.</hi>
+               </item>
+               <item>'s Plea for Peace Impleaded againſt Mr. <hi>Baxter.</hi>
+               </item>
+               <item>Mr. <hi>Hallywel's</hi> Excellency of the Chriſtian Religion. <hi>Oct.</hi>
+               </item>
+               <item>'s Account of Familiſm againſt the <hi>Quakers. Oct.</hi>
+               </item>
+               <item>'s Sacred method of ſaving humane Souls by Jeſus Chriſt. <hi>Oct.</hi>
+               </item>
+               <item>'s <hi>Melampronea,</hi> a diſcourſe of the Polity of the Kingdom of Darkneſs. <hi>Octav.</hi>
+               </item>
+               <item>Mr. <hi>Hotchkis</hi> diſcourſe of the Imputation of Chriſt's Righteouſneſs. <hi>Oct.</hi>
+               </item>
+               <item>2d Diſcourſe with a Poſtſcript againſt Dr. <hi>Owen.</hi>
+               </item>
+               <item>Dr. <hi>Worthington</hi>'s great duty of Self-reſignation. <hi>Oct.</hi>
+               </item>
+               <item>Dr <hi>More</hi>'s Reply to an Anſwer to his Antidote againſt Idolatry, with an Appendix. <hi>Octav.</hi>
+               </item>
+               <item>'s Remarks on the L. <hi>Hales</hi>'s two Diſcourſes of Gravitation and Non-Gravitation of <hi>Fluids,</hi> and the Torricellian Experiment. <hi>Oct.</hi>
+               </item>
+               <item>'s Expoſition on the Revelation. <hi>Quar.</hi>
+               </item>
+               <item>on <hi>Daniel. Quar.</hi>
+               </item>
+               <item>'s Anſwer to <hi>Butler</hi> of Judicial Aſtrology. <hi>Quar.</hi>
+               </item>
+               <item>
+                  <hi>H. Mori, Opera Theologica &amp; Philoſophica. Fol.</hi> 3 <hi>Vol.</hi>
+               </item>
+               <pb facs="tcp:96572:22"/>
+               <item>Dr. <hi>Fowler</hi>'s <hi>Libertas Evangelica. Oct.</hi>
+               </item>
+               <item>'s Sermon before the Judges at <hi>Glouceſter. Quar.</hi>
+               </item>
+               <item>Mr. <hi>Kidder</hi>'s diſcourſe of Chriſtian Fortitude. <hi>Oct.</hi>
+               </item>
+               <item>Dr. <hi>Falkener</hi>'s <hi>Libertas Eccleſiaſtica. Oct.</hi>
+               </item>
+               <item>'s Chriſtian Loyalty. <hi>Oct.</hi>
+               </item>
+               <item>'s Vindication of Liturgies. <hi>Oct.</hi>
+               </item>
+               <item>Mr. <hi>Scot</hi>'s Diſcourſe of the Chriſtian life. <hi>Oct.</hi>
+               </item>
+               <item>'s Sermon before the Artillery Company.</item>
+               <item>
+                  <hi>Allen</hi>'s Perſwaſive to peace, and unity amongſt Chri<g ref="char:EOLhyphen"/>ſtins.</item>
+               <item>'s Friendly addreſs to the Nonconformiſts. <hi>Oct.</hi>
+               </item>
+               <item>'s Myſtery of Iniquity againſt the Papiſts. <hi>Oct.</hi>
+               </item>
+               <item>'s Diſcourſe of Divine aſſiſtance. <hi>Oct.</hi>
+               </item>
+               <item>'s Danger of Enthuſiaſm againſt the Quakers.</item>
+               <item>Againſt <hi>Ferguſon</hi> of Juſtification. <hi>Oct.</hi>
+               </item>
+               <item>'s Chriſtians juſtification ſtated. <hi>Oct.</hi>
+               </item>
+               <item>'s Practical diſcourſe of Humility. <hi>Oct.</hi>
+               </item>
+               <item>Dr. <hi>Grove</hi>'s Vindication of the Conforming Clergy againſt <hi>Jenkins.</hi>
+               </item>
+               <item>'s <hi>Reſponſio ad Celeuſma. Quar.</hi>
+               </item>
+               <item>'s Defence of the Church, and Clergy of <hi>England.</hi>
+               </item>
+               <item>
+                  <hi>Burnetii, TELL<g ref="char:V">Ʋ</g>RIS THEORIA SACRA.</hi>
+               </item>
+               <item>The Roman wonder, being truth confeſt by Papiſts. <hi>fol.</hi>
+               </item>
+               <item>Dr. <hi>W. Smith</hi>'s unjuſt mans doom, and diſcourſe of partial conformity. <hi>Oct.</hi>
+               </item>
+               <item>'s 2 Aſſize Sermons at St. <hi>Edmundsbury.</hi>
+               </item>
+               <item>'s 2 Sermons at <hi>Norwich.</hi>
+               </item>
+               <item>'s Sermon the 4th Sunday in Lent. <hi>Quar.</hi>
+               </item>
+               <item>Proteſtant Loyalty fairly drawn to the Life, being an Anſwer to a Dialogue between a Tutor, and a Pupil at <hi>Oxford,</hi> and the Impartial account of the late Ad<g ref="char:EOLhyphen"/>dreſſes. <hi>Quar.</hi>
+               </item>
+               <item>Mr. <hi>Cutlov</hi>'s 2 Sermons at the Aſſizes at St. <hi>Edmunds<g ref="char:EOLhyphen"/>bury.</hi>
+               </item>
+               <item>
+                  <hi>Brown</hi>'s Viſitation Sermon at <hi>Halſtead</hi> in <hi>Eſſex.</hi>
+               </item>
+               <item>
+                  <hi>Inet</hi>'s Sermon at the Aſſizes at <hi>Warwick. Quar.</hi>
+               </item>
+            </list>
+         </div>
+      </back>
+   </text>
+</TEI>
